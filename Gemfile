@@ -29,7 +29,7 @@ gem 'rails_12factor', group: :production
 
 # Use Unicorn as the app server
 # gem 'unicorn'
-
+gem 'foreman'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
