@@ -27,6 +27,7 @@
     "uglify": "^0.1.3"
   },
   "dependencies": {
+    "nuka-carousel": "0.0.9",
     "react": "^0.13.2"
   }
 }
