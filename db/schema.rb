@@ -26,6 +26,15 @@ ActiveRecord::Schema.define(version: 20150502213802) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "events", force: :cascade do |t|
+    t.string   "title",       null: false
+    t.string   "frequency"
+    t.string   "description"
+    t.string   "album_link"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
   create_table "team_members", force: :cascade do |t|
     t.string   "name"
     t.string   "title"
