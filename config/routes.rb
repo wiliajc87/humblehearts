@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
-<<<<<<< HEAD
   devise_for :users, controllers: {
   sessions: 'sessions'
 }
@@ -12,11 +10,6 @@ Rails.application.routes.draw do
   resources :donate
 
   resources :services
-<<<<<<< HEAD
-
-  resources :services
-=======
->>>>>>> added Services model/controller
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
