@@ -13,6 +13,7 @@ Rails.application.routes.draw do
 
   resources :donate
   resources :community_resources
+  resources :events
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -22,8 +23,6 @@ Rails.application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-
-  resources :events
 
   # Example resource route with options:
   #   resources :products do
