@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   root 'welcome#index'
   get 'our_story' => 'welcome#our_story'
   get 'our_services' => 'welcome#our_services'
+  get 'photos' => 'photos#index'
   get 'contact_us' => 'welcome#contact_us'
 
   resources :community_resources
