@@ -6,11 +6,11 @@ module.exports = function(grunt) {
       },
       app: {
         src: "public/src/jsx/application.jsx",
-        dest: "app/assets/javascripts/images.js"
+        dest: "public/build/javascripts/application.js"
       }
     },
     watch: {
-      files: ["./src/**/*"],
+      files: ["./public/src/**/*"],
       tasks: ["browserify"],
     },
   });
