@@ -9,7 +9,12 @@ Rails.application.routes.draw do
   root 'welcome#index'
   get 'our_story' => 'welcome#our_story'
   get 'our_services' => 'welcome#our_services'
+<<<<<<< HEAD
   get 'support_us' => 'welcome#support_us'
+=======
+  get 'contact_us' => 'welcome#contact_us'
+
+>>>>>>> origin/development
   resources :donate
   resources :services
 
