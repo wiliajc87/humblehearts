@@ -8,12 +8,13 @@ class ServicesController < ApplicationController
   end
 
   def create
-    @service = Service.new(:service_params)
+    @service = Service.new(service_params)
     @service.save
   end
 
   def update
     @service = Service.find(params[:id])
+    @service.update(service_params)
   end
 
   def delete
