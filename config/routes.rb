@@ -10,8 +10,11 @@ Rails.application.routes.draw do
   resources :donate
 
   resources :services
+<<<<<<< HEAD
 
   resources :services
+=======
+>>>>>>> added Services model/controller
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
