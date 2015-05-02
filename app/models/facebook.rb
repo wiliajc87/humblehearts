@@ -10,9 +10,7 @@ class Facebook < ActiveRecord::Base
   def self.page_albums
     @@graph.get_connection("477172595731068", 
       "albums",
-      {fields: ['message', 'id', 'from', 'type',
-        'picture', 'link', 'created_time', 
-        'updated_time']})
+      {fields: ['id', 'name', 'link']})
   end
 
 end
