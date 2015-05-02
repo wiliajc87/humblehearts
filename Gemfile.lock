@@ -154,9 +154,12 @@ PLATFORMS
 DEPENDENCIES
   byebug
 <<<<<<< HEAD
+<<<<<<< HEAD
   devise
 =======
 >>>>>>> Remove turbolinks. Remove coffeescript references.
+=======
+>>>>>>> development
   foreman
   jbuilder (~> 2.0)
   jquery-rails
