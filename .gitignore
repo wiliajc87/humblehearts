@@ -9,6 +9,7 @@ capybara-*.html
 /coverage/
 /spec/tmp
 /config/facebook.yml
+/config/initializers/facebook_keys.rb
 **.orig
 rerun.txt
 pickle-email-*.html
