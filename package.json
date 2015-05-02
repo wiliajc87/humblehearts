@@ -1,0 +1,32 @@
+{
+  "name": "humblehearts",
+  "version": "1.0.0",
+  "description": "HumbleHearts charity for the homeless",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wiliajc87/humblehearts.git"
+  },
+  "author": "Bluebisons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wiliajc87/humblehearts/issues"
+  },
+  "homepage": "https://github.com/wiliajc87/humblehearts",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.7.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-react": "^0.12.2",
+    "uglify": "^0.1.3"
+  },
+  "dependencies": {
+    "react": "^0.13.2"
+  }
+}
