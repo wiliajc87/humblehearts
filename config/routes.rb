@@ -11,8 +11,11 @@ Rails.application.routes.draw do
 
   resources :services
 <<<<<<< HEAD
+<<<<<<< HEAD
 
   resources :services
+=======
+>>>>>>> added Services model/controller
 =======
 >>>>>>> added Services model/controller
   # Example of regular route:
