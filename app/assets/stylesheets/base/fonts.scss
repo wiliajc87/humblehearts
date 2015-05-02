@@ -1,4 +1,25 @@
 @font-face {
-
-
+	font-family: 'Oswald';
+	src:font-url('Oswald-Regular.ttf');
+	font-weight: normal;
+	font-size: normal;
 }
+
+@font-face {
+	font-family: 'Roboto';
+	src:font-url('Roboto-Regular.ttf');
+	font-weight: normal;
+	font-size: normal;
+}
+
+@font-face {
+	font-family: 'Roboto-Italic';
+	src:font-url('Roboto-LightItalic.ttf');
+	font-weight: normal;
+	font-size: normal;
+}
+
+$body-font: Roboto, sans-serif;
+$body-font-emphasis: Roboto-Italic, sans-serif;
+$title-text: Oswald, sans-serif;
+
