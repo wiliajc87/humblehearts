@@ -12,8 +12,7 @@ Rails.application.routes.draw do
   get 'contact_us' => 'welcome#contact_us'
 
   resources :donate
-  resources :services
-
+  resources :community_resources
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -23,8 +22,8 @@ Rails.application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-  resources :events
 
+  resources :events
 
   # Example resource route with options:
   #   resources :products do
