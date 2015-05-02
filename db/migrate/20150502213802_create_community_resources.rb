@@ -6,6 +6,7 @@ class CreateCommunityResources < ActiveRecord::Migration
       t.string :url
       t.string :address
       t.string :category
+      t.text :description
 
       t.timestamps null: false
     end
