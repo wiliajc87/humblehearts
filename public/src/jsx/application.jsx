@@ -17,5 +17,5 @@ const Gallery = React.createClass({
     )
   }
 });
-
+console.log('teste')
 React.render(<Gallery />, document.getElementById('gallery-anchor-1'));

@@ -1,25 +1,43 @@
 module.exports = function(grunt) {
+  var reactify = require('grunt-react').browserify;
+
   grunt.initConfig({
     browserify: {
-      options: {
-        transform: [ require("grunt-react").browserify ]
+      dev: {
+        options: {
+          transform: [ reactify ],
+          browserifyOptions: {
+              extensions: ['.jsx'],
+              debug: true
+          },
+          watch: true,
+          keepAlive: true
+        },
+        files: {
+          "public/build/javascripts/application.js": "public/src/jsx/application.jsx"
+        }
       },
-      app: {
-        src: "public/src/jsx/application.jsx",
-        dest: "public/build/javascripts/application.js"
+      prod: {
+        files: {
+            "public/build/javascripts/application.js": "public/src/jsx/application.jsx"
+        },
+        options: {
+          transform: [reactify],
+          browserifyOptions: {
+            extensions: ['.jsx']
+          }
+        }
       }
-    },
-    watch: {
-      files: ["./public/src/**/*"],
-      tasks: ["browserify"],
-    },
+    }
   });
 
-  grunt.loadNpmTasks("grunt-contrib-watch");
   grunt.loadNpmTasks("grunt-browserify");
-  grunt.loadNpmTasks("grunt-react");
 
   grunt.event.on("watch", function(action, filepath, target) {
     grunt.log.writeln(target + ": " + filepath + " has " + action);
   });
+
+  grunt.registerTask('default', ['browserify:prod']);
+  grunt.registerTask('dev', ['browserify:dev']);
+  grunt.registerTask('prod', ['browserify:prod']);
 };
