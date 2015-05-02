@@ -1,1 +1,8 @@
 Our Story
+
+<% @team_members.each do |team_member| %>
+<img src=<%= team_member.photo_url %>></img>
+<%= team_member.name %>
+<%= team_member.title %>
+<%= team_member.bio %>
+<% end %>
