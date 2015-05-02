@@ -155,11 +155,15 @@ DEPENDENCIES
   byebug
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   devise
 =======
 >>>>>>> Remove turbolinks. Remove coffeescript references.
 =======
 >>>>>>> development
+=======
+  devise
+>>>>>>> added devise to gem and actionmailer
   foreman
   jbuilder (~> 2.0)
   jquery-rails
