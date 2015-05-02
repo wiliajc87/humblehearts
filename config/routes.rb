@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   root 'welcome#index'
   resources :donate
 
+  resources :services
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
