@@ -11,10 +11,8 @@ class WelcomeController < ApplicationController
 
 
   def support_us
-
   end
 
   def contact_us
-
   end
 end
