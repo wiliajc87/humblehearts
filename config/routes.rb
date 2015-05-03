@@ -7,12 +7,20 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
+
   get 'our-story' => 'welcome#our_story'
   get 'our-services' => 'welcome#our_services'
   get 'contact-us' => 'welcome#contact_us'
+  get 'support-us' => 'welcome#support_us'
 
   resources :donate
+  resources :services
+  get 'events' => 'events#index'
+
+
   resources :community_resources
+  resources :events
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -22,8 +30,6 @@ Rails.application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-
-  resources :events
 
   # Example resource route with options:
   #   resources :products do
