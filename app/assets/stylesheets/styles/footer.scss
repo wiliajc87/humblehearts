@@ -1,15 +1,17 @@
-#footer-wrapper {
-	position: fixed;
-	bottom: 0; right: 0; left: 0;
+footer {
 	width: 100%;
 	font-family: $body-font;
 	background-color: $light-grey;
 	color: $dark-grey;
-	padding: 4px 0 8px 0;
+	padding-top: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 1em;
+	position: absolute;
+	bottom: 0;
+	height: 8em;
 
-	footer {
-		margin: 10px;
-		height: 100px;
+
 		a {
 			color: $dark-grey;
 			text-decoration: none;
@@ -36,12 +38,14 @@
 			}
 		}
 
-		p {
-			text-align: right;
-		}
-
-		.copyright {
-			padding-top: 0.8em;
-		}
+	.right-info {
+		float: right;
+		position: relative;
+		right: 4em;
 	}
+
+	p {
+		text-align: right;
+	}
+
 }
