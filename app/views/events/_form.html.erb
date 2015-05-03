@@ -1,8 +1,9 @@
 <%= form_for @event, :html => { :multipart => true } do |f| %>
-    <%= f.text_field :title %>
-    <%= f.text_field :frequency %>
-    <%= f.text_field :description %>
-    <%= f.text_field :album_link %>
-    <%= f.text_field :date_of_event, :placeholder => "YYYY-MM-DD" %>
-  <%= f.submit %>
+    Title:<br><%= f.text_field :title, size: "60"  %><br>
+    Event Date:<br> <%= f.text_field :date_of_event, :placeholder => "YYYY-MM-DD", size: "30"  %><br>
+    Frequency:<br> <%= f.text_field :frequency, size: "30"  %><br>
+    Description:<br> <%= f.text_field :description, size: "60"  %><br>
+    Link to Photos:<br> <%= f.text_field :album_link , size: "60" %><br><br>
+    
+  <%= f.submit %><br><br>
 <% end %>
