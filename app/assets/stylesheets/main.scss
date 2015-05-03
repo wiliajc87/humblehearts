@@ -1,0 +1,16 @@
+@import "font-awesome";
+@import "base/fonts.scss";
+@import "base/colors.scss";
+@import "base/yui.css";
+@import "base/general.scss";
+@import "styles/footer.scss";
+@import "styles/general.scss";
+@import "styles/services.scss";
+@import "administration.scss";
+@import "styles/gallery.scss";
+
+html, body {
+	height: 100%;
+	width: 100%;
+	// background: $dark-grey;
+}

@@ -1,0 +1,8 @@
+<h1>Media</h1>
+<p>People are noticing the work we're doing at Humble Hearts!</p>
+<% @category_hash.each do |key, value| %>
+  <h2><%= key %></h2>
+    <% value.each do |val| %>
+      <h2><%= link_to val.title, url_for(val.link)%></h2>
+    <% end %>
+  <% end %>

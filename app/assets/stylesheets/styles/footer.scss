@@ -1,0 +1,46 @@
+#footer-wrapper {
+	position: fixed;
+	bottom: 0; right: 0; left: 0;
+	width: 100%;
+	font-family: $body-font;
+	background-color: $light-grey;
+	color: $dark-grey;
+	padding: 4px 0 8px 0;
+
+	footer {
+		margin: 10px;
+		a {
+			color: $dark-grey;
+			text-decoration: none;
+
+			&:hover {
+				color: $red;
+			}
+		}
+
+		.sitemap {
+		  float: left;
+
+			p {
+				text-align: left;
+				font-style: bold;
+				color: black;
+			}
+
+			ul {
+				columns: 2;
+			  -webkit-columns: 2;
+			  -moz-columns: 2;
+			  width: 25em;
+			}
+		}
+
+		p {
+			text-align: right;
+		}
+
+		.copyright {
+			padding-top: 0.8em;
+		}
+	}
+}
