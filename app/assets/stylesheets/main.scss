@@ -7,14 +7,4 @@
 @import "styles/general.scss";
 @import "styles/services.scss";
 @import "administration.scss";
-@import "styles/gallery.scss";
-
-html, body {
-	height: 100%;
-	width: 100%;
-	// background: $dark-grey;
-}
-
-div#wrapper {
-	margin: 0 0 130px 0; /* stops footer from overflowing page */
-}
+@import "styles/events.scss";

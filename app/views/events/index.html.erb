@@ -1,15 +1,16 @@
 <h1>Events</h1>
 
-<div id="events-wrapper">
-	<% @events.each do |event| %>
-		<ul>
-			<li>
-				<p><%= event.title %></p>
-				<p><%= event.description %></p>
-			</li>
-		</ul>
-	<% end %>
-</div>
+<% @events.each do |event| %>
+	<div class="row">
+		<div class="two-thirds-message">
+			<h3><%= event.title %></h3>
+			<p>
+				<%= event.description %>
+			</p>
+		</div>
+		<img src="" class="one-third-image">
+	</div>
+<% end %>
 
 <h2>Past Events</h2>
 
