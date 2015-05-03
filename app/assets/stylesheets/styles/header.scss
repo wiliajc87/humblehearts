@@ -46,3 +46,8 @@ nav ul li a {
 	text-decoration: none;
 	color: white;
 }
+
+nav.scrolling {
+	top: 0;
+	position: fixed;
+}
