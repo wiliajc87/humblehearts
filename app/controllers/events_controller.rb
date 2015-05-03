@@ -6,7 +6,8 @@ require 'flickr.rb'
 class EventsController < ApplicationController
 
   def index
-    @events = Event.all
+    # @events = Event.all
+    @events= Facebook.flickr_photos
   end
 
   def new
@@ -40,20 +41,20 @@ class EventsController < ApplicationController
     end
   end
 
-  def media_api
-    flickr = Flickr.new(ENV["FLICKR_KEY"]) 
-    user = flickr.users('humbleheartsorg@yahoo.com')
-    list = user.photos
-    sources = []
-    list.each do |hash|
-      sources.push({
-        src: "https://farm#{hash["farm"]}.staticflickr.com/#{hash["server"]}/#{hash["id"]}_#{hash["secret"]}.jpg",
-        title: hash.title,
-        desc: hash.description
-      })
-    end
-    render json: sources
-  end
+  # def media_api
+  #   flickr = Flickr.new(ENV["FLICKR_KEY"]) 
+  #   user = flickr.users('humbleheartsorg@yahoo.com')
+  #   list = user.photos
+  #   sources = []
+  #   list.each do |hash|
+  #     sources.push({
+  #       src: "https://farm#{hash["farm"]}.staticflickr.com/#{hash["server"]}/#{hash["id"]}_#{hash["secret"]}.jpg",
+  #       title: hash.title,
+  #       desc: hash.description
+  #     })
+  #   end
+  #   render json: sources
+  # end
 
   private
 

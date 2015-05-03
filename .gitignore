@@ -10,6 +10,7 @@ capybara-*.html
 /coverage/
 /spec/tmp
 /config/initializers/facebook_keys.rb
+/config/initializers/flickr.rb
 node_modules/
 **.orig
 rerun.txt
