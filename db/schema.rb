@@ -22,17 +22,19 @@ ActiveRecord::Schema.define(version: 20150503003731) do
     t.string   "url"
     t.string   "address"
     t.string   "category"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.text     "description"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "events", force: :cascade do |t|
-    t.string   "title",       null: false
+    t.string   "title",         null: false
     t.string   "frequency"
     t.string   "description"
     t.string   "album_link"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.string   "date_of_event"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
   create_table "facebooks", force: :cascade do |t|
@@ -43,17 +45,7 @@ ActiveRecord::Schema.define(version: 20150503003731) do
   create_table "media", force: :cascade do |t|
     t.string   "title"
     t.string   "link"
-    t.string   "type",       null: false
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "services", force: :cascade do |t|
-    t.string   "name"
-    t.string   "phone"
-    t.string   "url"
-    t.string   "address"
-    t.string   "category"
+    t.string   "category",   null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

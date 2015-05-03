@@ -22,10 +22,12 @@ class WelcomeController < ApplicationController
   def administration
     if user_signed_in?
       @team_member = TeamMember.new
-      @media = Medium.new
+      @medium = Medium.new
+      @event = Event.new
       @community_resource = CommunityResource.new
-      @medias = Medium.all
+      @media = Medium.all
       @community_resources = CommunityResource.all
+      @events = Event.all
       @team_members = TeamMember.all
       render "administration"
     else

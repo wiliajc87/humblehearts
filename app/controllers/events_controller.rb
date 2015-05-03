@@ -11,30 +11,35 @@ class EventsController < ApplicationController
     @event = Event.new
   end
 
+  def show
+    @event = Event.find(params[:id])
+    if @event.destroy
+      redirect_to administration_path
+    else
+      redirect_to administration_path
+    end
+  end
+
   def create
-    @event = Event.create(event_params)
+    @event = Event.new(event_params)
+    if @event.save
+      redirect_to administration_path
+    end
   end
 
   def update
     @event = Event.find(params[:id])
     if @event.update_attributes(event_params)
-      flash[:notice] = "Your event has been updated!"
-      redirect_to :admin
-    else
-      flash[:notice] = "Something went wrong"
-      render partial: 'form'
+      redirect_to administration_path
     end
   end
 
-  def edit
+  def delete
     @event = Event.find(params[:id])
-    render partial: 'form'
-  end
-
-  def destroy
-    @event = Event.find(parmas[:id])
     if @event.destroy
-      flash[:notice] = "Event deleted"
+      redirect_to administration_path
+    else
+      redirect_to administration_path
     end
   end
 
@@ -45,6 +50,6 @@ class EventsController < ApplicationController
   private
 
   def event_params
-    params.require(:event).permit(:title, :frequency, :description, :album_link)
+    params.require(:event).permit(:title, :frequency, :description, :album_link, :date_of_event)
   end
 end

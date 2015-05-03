@@ -38,6 +38,7 @@ gem 'foreman'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#Front end stuff!
 gem "font-awesome-rails"
 
 group :development, :test do
@@ -49,5 +50,7 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  gem 'faker'
 end
 
