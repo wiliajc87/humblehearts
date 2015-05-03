@@ -1,23 +1,18 @@
-<h1>Events</h1>
+<div class="events">
+	<% @events.each do |event| %>
+				<h3><%= event.title %></h3>
+				<p>
+					<%= event.description %>
+				</p>
+	<% end %>
 
-<% @events.each do |event| %>
-	<div class="row">
-		<div class="two-thirds-message">
-			<h3><%= event.title %></h3>
-			<p>
-				<%= event.description %>
-			</p>
-		</div>
-		<img src="" class="one-third-image">
-	</div>
-<% end %>
+	<a href="https://www.flickr.com/photos/132225561@N08/" target="blank_">
+		<h2>Past Events</h2>
+	</a>
 
-<a href="https://www.flickr.com/photos/132225561@N08/" target="blank_">
-	<h2>Past Events</h2>
-</a>
+	<% albums.each do |album| %>
+		<div id=<%= "gallery-anchor-#{album[0]['id']}" %>></div>
+	<% end %>
 
-<% albums.each do |album| %>
-	<div id=<%= "gallery-anchor-#{album[0]['id']}" %>></div>
-<% end %>
-
-<script src='/build/javascripts/application.js'></script>
+	<script src='/build/javascripts/application.js'></script>
+</div>
