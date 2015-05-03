@@ -7,9 +7,9 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'welcome#index'
-  get 'our_story' => 'welcome#our-story'
-  get 'our_services' => 'welcome#our-services'
-  get 'contact_us' => 'welcome#contact-us'
+  get 'our-story' => 'welcome#our_story'
+  get 'our-services' => 'welcome#our_services'
+  get 'contact-us' => 'welcome#contact_us'
 
   resources :donate
   resources :community_resources
