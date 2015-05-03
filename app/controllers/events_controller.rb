@@ -1,6 +1,7 @@
-require 'flickraw'
-FlickRaw.api_key="b2aef871a11feaaacea0b0095199ff81"
-FlickRaw.shared_secret="801763578c315854"
+require 'flickr.rb'
+
+# FlickRaw.api_key="b2aef871a11feaaacea0b0095199ff81"
+# FlickRaw.shared_secret="801763578c315854"
 
 class EventsController < ApplicationController
 
@@ -40,10 +41,16 @@ class EventsController < ApplicationController
   end
 
   def media_api
-    list   = flickr.photos.search(user_id: '132225561@N08')
+    flickr = Flickr.new(ENV["FLICKR_KEY"]) 
+    user = flickr.users('humbleheartsorg@yahoo.com')
+    list = user.photos
     sources = []
     list.each do |hash|
-      sources << "https://farm#{hash["farm"]}.staticflickr.com/#{hash["server"]}/#{hash["id"]}_#{hash["secret"]}.jpg"
+      sources.push({
+        src: "https://farm#{hash["farm"]}.staticflickr.com/#{hash["server"]}/#{hash["id"]}_#{hash["secret"]}.jpg",
+        title: hash.title,
+        desc: hash.description
+      })
     end
     render json: sources
   end

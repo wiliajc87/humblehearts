@@ -1,4 +1,4 @@
 --- !map:HashWithIndifferentAccess
-key: 'b2aef871a11feaaacea0b0095199ff81'
-secret: '801763578c315854'
+key: <%= ENV["FLICKR_KEY"] %>
+secret: <%= ENV["FLICKR_SECRET"] %>
 token_cache: "token_cache.yml"
