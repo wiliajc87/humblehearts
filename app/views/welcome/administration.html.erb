@@ -1,1 +1,11 @@
 ADMIN PAGE, BABY!
+<h1>Team Members</h1>
+  <%= render "team_members/form"%>
+<% if @team_members %>
+  <%= render "team_members/update_form"%>
+<% end %>
+<h1>Community Resources</h1>
+  <%= render "community_resources/form"%>
+<% if @community_resources %>
+  <%= render "community_resources/update_form"%>
+<% end %>
