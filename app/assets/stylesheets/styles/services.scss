@@ -10,8 +10,21 @@
 	h4 {
 		padding-top: 0.5em;
 	}
+}
 
-    img {
-
-    }
+.our-services {
+	margin: 4px auto auto;
+	padding: 60px;
+	max-width: 820px;
+	.row {
+		padding: 20px;
+		max-height: 320px;
+	}
+	img.one-third-image {
+		margin: 4px;
+		max-width: 240px;
+		max-height: 120px;
+		height: auto;
+		width: auto;
+	}
 }
