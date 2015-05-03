@@ -47,7 +47,8 @@ body {
 	.welcome-message {
 	  display: inline-block;
 	  width: 50%;
-	  margin-top: 6em;
+	  margin-top: 3em;
+	  margin-right: 1em;
 		text-align: left;
 	  vertical-align: top;
 
@@ -62,6 +63,10 @@ body {
 		ul {
 		  margin-left: 2em;
 		  margin-top: 1em;
+
+		  li {
+		  	margin-top: 1em;
+		  }
 		}
 	}
 
