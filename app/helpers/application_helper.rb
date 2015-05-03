@@ -1,8 +1,4 @@
 module ApplicationHelper
-  def after_sign_in_path_for(resource)
-    administration_path
-  end
-
   def resource_name
     :user
   end

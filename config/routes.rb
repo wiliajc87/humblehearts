@@ -11,10 +11,8 @@ Rails.application.routes.draw do
   get 'our-services' => 'welcome#our_services'
   get 'support-us' => 'welcome#support_us'
   get 'contact-us' => 'welcome#contact_us'
-  resources :donate
-  resources :services
   get 'events' => 'events#index'
-  get 'log-in' => 'welcome#log_in'
+  get 'login' => 'welcome#log_in'
   get 'administration' => 'welcome#administration'
 
 

@@ -21,8 +21,8 @@ class WelcomeController < ApplicationController
 
   def administration
     if user_signed_in?
-      @media = Medium.all
-      @services = Serices.all
+      # @media = Medium.all
+      @community_resources = CommunityResource.all
       @team_members = TeamMember.all
       render "administration"
     else
