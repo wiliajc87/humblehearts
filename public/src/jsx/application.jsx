@@ -2,7 +2,6 @@ var React = require('react')
     , http = require('http')
     , Carousel = require('nuka-carousel')
     , key = 0
-    , anchorId = 0
     , photos = [];
 
 function getPhotos() {
