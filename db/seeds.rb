@@ -14,3 +14,12 @@ t = TeamMember.create(name: 'Taylor', title: 'like a boss', photo_url: 'https://
 Do not clean your ears with bobby pins, twisted napkin corners, or other long pointed objects.
 Do not use cotton swabs. They will merely push the wax deeper into the ear canal, causing a blockage.
 Do not use ear candles.')
+
+#event seeds
+
+Event.create(title: , frequency: , description: "Wrap a gift for the homeless
+Come share some cheer as we fill over a 100 shoe boxes with all kinds of treats such as socks, hygiene products, snacks, gloves, scarves and other misc. items to pass out during the holiday to the homeless people" , album_link: )
+
+annual holiday chistmas party
+
+youth LGBTQ
