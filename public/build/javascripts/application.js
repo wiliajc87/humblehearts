@@ -27837,8 +27837,8 @@ var Gallery = React.createClass({displayName: "Gallery",
   render() {
     return (
       React.createElement("div", {key: this.props.title, className: "gallery-slider"}, 
-        React.createElement("div", {id: "event-title"}, this.props.title), 
-        React.createElement(Carousel, {decorators: Decorators, slidesToShow: 4}, 
+        React.createElement("div", {className: "event-title"}, this.props.title), 
+        React.createElement(Carousel, {slidesToShow: 4}, 
           photos
         )
       )
