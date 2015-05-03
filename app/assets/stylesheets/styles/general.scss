@@ -7,6 +7,11 @@ body {
 	margin: 0 0 11em;
 	font-family: $body-font;
 
+	h1 {
+		// font-family: $title-text;
+		// font-size: 2em;
+	}
+
 	h2 {
 		font-family: $title-text;
 		font-size: 1.5em;
