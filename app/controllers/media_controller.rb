@@ -1,7 +1,7 @@
 class MediaController < ApplicationController
-
+  include Categories
   def index
-    @media = Medium.all
+    media_categorify
   end
 
   def new

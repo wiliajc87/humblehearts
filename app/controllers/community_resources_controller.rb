@@ -1,7 +1,7 @@
 class CommunityResourcesController < ApplicationController
   include Categories
   def index
-    categorify
+    resource_categorify
   end
 
   def show
