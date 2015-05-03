@@ -19,7 +19,7 @@ module Categories
       "Soup Kitchens" => @soup_kitchens,
       "Free Medical Centers" => @free_medical_centers,
       "Low Income Medical Centers" => @low_income_community_medical_clinics,
-      "Mental Health and Addiction Services" = >@mental_health_and_addiction_services
+      "Mental Health and Addiction Services" =>@mental_health_and_addiction_services
       "Other" => @other
     }
   end
