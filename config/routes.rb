@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   get 'events' => 'events#index'
   get 'login' => 'welcome#log_in'
   get 'administration' => 'welcome#administration'
+  get 'media_api' => 'events#media_api'
 
 
   resources :community_resources
