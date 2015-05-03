@@ -14,6 +14,8 @@ Rails.application.routes.draw do
   resources :donate
   resources :services
   get 'events' => 'events#index'
+  get 'log-in' => 'welcome#log_in'
+  get 'administration' => 'welcome#administration'
 
 
   resources :community_resources
