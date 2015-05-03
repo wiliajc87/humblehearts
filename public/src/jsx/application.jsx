@@ -47,8 +47,8 @@ var Gallery = React.createClass({
   render() {
     return (
       <div key={this.props.title} className="gallery-slider">
-        <div id="event-title">{this.props.title}</div>
-        <Carousel decorators={Decorators} slidesToShow={4}>
+        <div className="event-title">{this.props.title}</div>
+        <Carousel slidesToShow={4}>
           {photos}
         </Carousel>
       </div>

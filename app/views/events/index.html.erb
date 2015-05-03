@@ -1,5 +1,18 @@
 <h1>Events</h1>
 
+<div id="events-wrapper">
+	<% @events.each do |event| %>
+		<ul>
+			<li>
+				<p><%= event.title %></p>
+				<p><%= event.description %></p>
+			</li>
+		</ul>
+	<% end %>
+</div>
+
+<h2>Past Events</h2>
+
 <% albums.each do |album| %>
 	<div id=<%= "gallery-anchor-#{album[0]['id']}" %>></div>
 <% end %>
