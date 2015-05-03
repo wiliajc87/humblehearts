@@ -1,0 +1,21 @@
+.admin_container {
+  font-family: $body-font;
+  padding-left: 2em;
+  padding-right: 2em;
+
+  input {
+  padding: .25em;
+  }
+
+  .admin_headers {
+    font-family: $title-text;
+    font-size: 2em;
+  }
+
+  .admin_subheaders {
+    font-family: $title-text;
+    font-size: 1.5em;
+  }
+
+
+}

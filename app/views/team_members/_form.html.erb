@@ -1,7 +1,9 @@
 <%= form_for @team_member, :html => { :multipart => true } do |f| %>
-  <%= f.text_field :name %>
-  <%= f.text_field :title %>
-  <%= f.text_field :photo_url %>
-  <%= f.text_area :bio, size: "60x12" %>
-  <%= f.submit %>
+  Name:<br> <%= f.text_field :name, size: "60", placeholder: "first and last name" %><br>
+  Title:<br> <%= f.text_field :title, size: "60", placeholder: "title"  %><br>
+  Photo:<br> <%= f.text_field :photo_url, size: "60", placeholder: "photo url" %><br>
+  Bio:<br> <%= f.text_area :bio, size: "60x12", placeholder: "Tell the team member's story here..." %>
+  <br>
+  <%= f.submit%>
+  <br>
 <% end %>
