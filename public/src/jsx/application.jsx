@@ -3,6 +3,7 @@ var React = require('react')
     , Carousel = require('nuka-carousel')
     , key = 0
     , anchorId = 0
+    , photos = [];
 
 function getPhotos() {
   http.get('/media_api', function(response) {
@@ -45,25 +46,28 @@ var Decorators = [{
 var Gallery = React.createClass({
   mixins: [Carousel.ControllerMixin],
   render() {
-    console.log(this.props.event)
+    var src = this.props.event
     return (
-      <Carousel decorators={Decorators} key={key++} slidesToShow={3}>
-        <img src={this.props.event} />
-      </Carousel>
+      <div>
+        <div id="event-title">{this.props.event}</div>
+        <Carousel decorators={Decorators} key={key++} slidesToShow={6}>
+          {photos}
+        </Carousel>
+      </div>
     )
   }
 });
 
 function renderPhotos(data) {
   for (var i = 0; i < data.length; i++) {
-    console.log(data[i]["src"])
+    photos.push(<img src={data[i]["src"]} />)
+    anchorId++
     React.render(
-      <div>{event {data[i]["title"]}
-        <div id="event-title">{data[i]["title"]}</div>
-        <Gallery event={data[i]["src"]} />
+      <div>
+        <div>{data[0]["title"]}</div>
+        <Gallery key={key++} />
       </div>,
       document.getElementById('gallery-anchor-' + data[i]["id"])
     );
-    anchorId++
   }
 }
