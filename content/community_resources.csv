@@ -1,5 +1,4 @@
 category,Name,Website,Phone,Address,Description
-,,,,,
 Shelters,Deborahs Place,www.deborahsplace.org,(312)-944-8810,1532 North Sedewick,Woman & child shelter - Temp Housing
 Shelters,CornerStone Community Out Reach,www.ccolife.org/our-programs,(773)- 271-8163,4628 N.Clifton,Woman & child shelter - Temp Housing
 Shelters,Franciscan Outreach Association ,www.franoutreach.org,(773) 278-6724,1645 W. LeMoyne Street ,Woman & child shelter - Temp Housing
@@ -17,11 +16,9 @@ Shelters,Pacific Mission Garden,www.pgm.org,(312)492-9410 ,1458 S. Canal St,Mens
 Shelters,Night Ministry Open Door Shelter,www.thenightministry.org,(773)506-4100,1110 N. Noble Street,Youth Housing
 Shelters,Mercy Home for Boys & Girls,www.mercyhome.org,(312)738-7560,1140 W. Jackson Blvd,Youth Housing
 Shelters,Heartland Alliance,www.heartlandalliance.org,(773)433-1200,4822 N. Broadway,Youth Housing
-Shelters,La Casa Norte,www.lacasanorte.org,(773)276-4900,3507 W. North Ave ,Young Men Shelter 
+Shelters,La Casa Norte,www.lacasanorte.org,(773)276-4900,3507 W. North Ave ,Young Men Shelter
 Shelters,Teen Living Program Beldford House,www.tlpchicago.org,(773) 548-4443,3745 S. Indiana Avenue,Youth Housing
 Shelters,El Rescate  ,www.elrescatechicago.org,(872) 829-2494,2739 W. Divsion,Youth Housing
-,,, ,,
-,,,,,
 Community Centers,Inner Voice,innervoicechicago.org,(312) 666-8110,,
 Community Centers,The Lincoln Park Community,lpcsonline.org,(773) 549-6111,600 West Fullerton parkway,
 Community Centers,Englewood Center,www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,1140 W. 79th Street,
@@ -32,10 +29,8 @@ Community Centers,South Chicago Center,www.cityofchicago.org/city/en/depts/fss/p
 Community Centers,Trina Davila ,www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,4357 W. Armitage Ave,
 Community Centers,Lift Chicago,,,4554 N. Broadway,
 Community Centers,Heartland Alliance,www.heartlandalliance.org,(773)433-1200,4822 N. Broadway,
-,,,,,
-,,,,,
 Housing Laws,Tennants Rights,www.tenant.org,(773)478-1133,Appointment need,
-Housing Laws,Access Living,www.accessliving.org,(312)253-7000,115 W. Chicago Ave,legal assistance 
+Housing Laws,Access Living,www.accessliving.org,(312)253-7000,115 W. Chicago Ave,legal assistance
 Housing Laws,Arnold E. Toole,www.toolelaw.com,(773)684-5730,1525 East 53rd Street,
 Housing Laws,Asain Human Services,www.ahschicago.org,(773)293-8482 ,4753 N. Broadway,
 Housing Laws,Center for Conflict Resolution,www.ccrchicago.org,(312)922-6464,"11 E. Adams, Suite 500 ",
@@ -45,14 +40,9 @@ Housing Laws,Keep Your Home Illinois ,www.keepyourhomeilliois.org,(855)873-7405,
 Housing Laws,John Marshall’s Fair Housing Legal Support,www.jmls.edu/fairhousing/center,(312)786-2267,55 E. Jackson Ave,
 Housing Laws,LAF,www.lafchicago.org/,(773)769-1411 ,4413 Sheridan,
 Housing Laws,Uptown People's Law Center  ,www.uplcchicago.org,(773)769-1410,4413 N Sheridan Rd,
-,,,,,
-,,,,,
 Homeless Laws,Homeless Coalition for the Homeless,,(800)940-1119,,
 Homeless Laws,ERZA Hotline ,,(800)248-1818,,
 Homeless Laws,Family Rescue,,(773)375-8400,,
-Homeless Laws,Legal Assistance Foundation of Metropolitan Chicago,,(312)341-1070,,
-,,,,,
-,,,,,
 Food Pantries,Greater Food Depository,www.chicagosfoodbank.org,(773)247-3663,,
 Food Pantries,Wells Temple of Deliverance Community Development Center,,(773) 533-6807,"2739 W Madison St, Chicago, IL  60612",
 Food Pantries,TSA: Midwest Corps Pantry,,(312) 733-4801,"20 S Campbell Ave, Chicago, IL  60612",
@@ -75,8 +65,6 @@ Food Pantries,Harmony Community Baptist Chur,,(773) 762-9673,"1908 S Millard Ave
 Food Pantries,Lincoln Square Friendship Ctn,,(773) 907-6388,"2733 W Lawrence Ave, Chicago, IL  60625",
 Food Pantries,The Holy Order of Cherubim and Seraphim Movement,,(773) 317-7710,"4850 N Sawyer Ave, Chicago, IL  60625",
 Food Pantries,North Shore SDA Church,,(773) 561-0282,"5220 N California Ave, Chicago, IL  60625",
-,,,,,
-,,,,,
 Soup/Community Kitchens ,Elam Davies Social Service Ctr,,(312) 787-2729 ,"126 E Chestnut St , Chicago, IL  60611",
 Soup/Community Kitchens ,Breaking Bread Ministries,,(312) 573-8838,"1111 N Wells St Ste 500, Chicago, IL  60610",
 Soup/Community Kitchens ,Providence Soup Kitchen St. Stanislaus Kostka,,(773) 278-2470,"1351 W Evergreen Ave , Chicago, IL  60642",
@@ -96,16 +84,11 @@ Soup/Community Kitchens ,Ravenswood Community Serv. SK c/o All Saints Episcopal 
 Soup/Community Kitchens ,Cornerstone Community Outreach,,(773) 271-8163 ,"4626 N Clifton Ave, Chicago, IL  60640",
 Soup/Community Kitchens ,Preston Bradley Center,,(773) 784-6633,"941 W Lawrence Ave 2nd Fl, Chicago, IL  60640",
 Soup/Community Kitchens ,St. Thomas of Canterbury,,(773) 878-5507,"4827 N Kenmore Ave, Chicago, IL  60640",
-Soup/Community Kitchens ,FCHN Soup Kitchen,,(773) 436-8277,"1234 W 59th St, Chicago, IL  60636",
-,,,,,
-,,,,,
 Free Medical Centers,Community Health Clinic - West Town,www.communityhealth.org,773.395.9900,2611 W Chicago Ave,
 Free Medical Centers,Community Health Clinic - Englewood,www.communityhealth.org,773.994.1515,641 W 63rd St,
 Free Medical Centers,Washington Park Children's Free Health Clinic,,773-924-0220,5350 S Prairie Avenue,
 Free Medical Centers,New Life Volunteering Society Free Health Clinic,,773-275-8630,2645 W. Peterson Ave,
 Free Medical Centers,Pacific Garden Mission Medical Clinic,,312-492-9410,1458 S. Canal Street,
-,,,,,
-,,,,,
 Low Income Community Medical Clinics,Erie Family Health Center ,, (312) 666-3494 ,4747 N. Kedzie,
 Low Income Community Medical Clinics,Warren Family Health Center ,,773-733-4475,2409 W. Warren Blvd,
 Low Income Community Medical Clinics,Wells Family Health Center,,773-536-1000,3747 S. Cottage Grove Ave,
@@ -134,8 +117,6 @@ Low Income Community Medical Clinics,Near West Family Center,,312-413-7425,2310 
 Low Income Community Medical Clinics,Rogers Park Family Health Center,,773-761-9625,1400 W Greenleaf,
 Low Income Community Medical Clinics,Salud Family Health Center,,773-836-2785,5359 W. Fullerton Ave,
 Low Income Community Medical Clinics,Cicero Family Health Center,,708-656-6430,5341 W. Cermak Rd.,
-,,,,,
-,,,,,
 Free / Low income Dental Services,1st Family Dental,,(855)251-0766,2511 N Milwaukee,
 Free / Low income Dental Services,Community Health Clinic - West Town,www.communityhealth.org,773.395.9900,2611 W Chicago Ave,
 Free / Low income Dental Services,Community Health Clinic - Englewood,www.communityhealth.org,773.994.1515,641 W 63rd St,
@@ -146,8 +127,6 @@ Free / Low income Dental Services,"Aunt Martha's Youth Service Center, Inc., and
 Free / Low income Dental Services,"Heartland Health Outreach, Inc",,(773) 338-4015,3436 W Wilson Ave,
 Free / Low income Dental Services,"Erie Family Dental Clinic, Inc",,312) 666-3494,,
 Free / Low income Dental Services,West Town Clinic ,,312.744.5493,,
-,,,,,
-,,,773-751-4125,,
 Mental Health and Addiction Services,Englewood MHC,http://www.cityofchicago.org/city/en/depts/cdph/provdrs/clinic/svcs/find_counseling_therapy.html,,,
 Mental Health and Addiction Services,Greater Grand/MID-South MHC ,http://www.cityofchicago.org/city/en/depts/cdph/provdrs/clinic/svcs/find_counseling_therapy.html,312.747.7496,641 W. 63rd Street,
 Mental Health and Addiction Services,Greater Lawn MHC,www.cityofchicago.org,312.747.0036,4314 S Cottage Grove,
