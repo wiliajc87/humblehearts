@@ -1,6 +1,7 @@
-class CommunityResourceController < ApplicationController
+class CommunityResourcesController < ApplicationController
+  include Categories
   def index
-    @community_resources = CommunityResource.all
+    categorify
   end
 
   def new

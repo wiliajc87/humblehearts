@@ -1,1 +1,13 @@
-Services Index
+<h1>Services</h1>
+<% @category_hash.each do |key, value| %>
+  <h2><%= key %></h2>
+    <ul>
+      <% value.each do |val| %>
+      <li><%=val.name%></li>
+      <li><%=val.phone%></li>
+      <li><%=val.url%></li>
+      <li><%=val.address%></li>
+      <li><%=val.description%></li>
+    <% end %>
+    </ul>
+  <% end %>
