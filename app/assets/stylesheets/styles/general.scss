@@ -39,3 +39,39 @@ body {
 	background-color: $white;
 	flex-grow: 1;
 }
+
+.content-body {
+	height: 600px;
+	text-align: center;
+
+	.welcome-message {
+	  display: inline-block;
+	  width: 50%;
+	  margin-top: 3em;
+	  margin-right: 1em;
+		text-align: left;
+	  vertical-align: top;
+
+		.welcome-heading {
+			font-size: 1.5em;
+		}
+
+		p {
+			margin-top: 1em;
+		}
+
+		ul {
+		  margin-left: 2em;
+		  margin-top: 1em;
+
+		  li {
+		  	margin-top: 1em;
+		  }
+		}
+	}
+
+	.facebook-feed {
+		display: inline-block;
+		width: 500px;
+	}
+}
