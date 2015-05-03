@@ -25,12 +25,12 @@ var Decorators = [{
           <a id={"previous-slide-" + key} className={"previous-slide"}
             href="#"
             onClick={this.props.previousSlide}>
-            {"<<"}
+            {"<"}
           </a>
           <a id={"next-slide-" + key} className="next-slide"
             href="#"
             onClick={this.props.nextSlide}>
-            {">>"}
+            {">"}
           </a>
         </div>
       )

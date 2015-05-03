@@ -27815,12 +27815,12 @@ var Decorators = [{
           React.createElement("a", {id: "previous-slide-" + key, className: "previous-slide", 
             href: "#", 
             onClick: this.props.previousSlide}, 
-            "<<"
+            "<"
           ), 
           React.createElement("a", {id: "next-slide-" + key, className: "next-slide", 
             href: "#", 
             onClick: this.props.nextSlide}, 
-            ">>"
+            ">"
           )
         )
       )
