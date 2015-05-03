@@ -8,7 +8,8 @@ capybara-*.html
 /public/system
 /coverage/
 /spec/tmp
-/config/secrets.yml
+/config/facebook.yml
+/config/initializers/facebook_keys.rb
 node_modules/
 **.orig
 rerun.txt
