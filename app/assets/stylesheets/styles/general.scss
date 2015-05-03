@@ -1,0 +1,21 @@
+.row {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	width: 100%;
+}
+
+.two-thirds-message {
+	background-color: red;
+	flex-grow: 2;
+}
+
+.one-third-image {
+	flex-grow: 1;
+}
+
+.center-message {
+	text-align: center;
+	background-color: blue;
+	flex-grow: 1;
+}
