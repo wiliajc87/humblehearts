@@ -17,7 +17,7 @@ Rails.application.routes.draw do
 
 
   resources :community_resources
-
+  resources :events
 
 
   # Example of regular route:
@@ -28,8 +28,6 @@ Rails.application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-
-  resources :events
 
   # Example resource route with options:
   #   resources :products do
