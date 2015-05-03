@@ -6,12 +6,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
 	<%= render '/layouts/header' %>
   <div id="wrapper">
+	  <p class="notice"><%= notice %></p>
+	  <p class="alert"><%= alert %></p>
+	  <p class="notice"><%= notice %></p>
+	  <p class="alert"><%= alert %></p>
 	 <%= yield %>
   </div>
 	<%= render '/layouts/footer' %>
