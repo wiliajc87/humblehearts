@@ -54,11 +54,18 @@ end
 Medium.create(:title => "Bookkeeper is Fearless Friend to the Homeless", :link => "https://slack-redir.net/link?url=http%3A%2F%2Fchicago.suntimes.com%2Fchicago-politics%2F7%2F71%2F153936%2Fbookkeeper-is-fearless-friend-to-the-homeless&v=3", :category => "article")
 Medium.create(:title => "Humble Hearts Provides Limitless Charity to Chicago", :link => "https://slack-redir.net/link?url=http%3A%2F%2Fwww.windycitymediagroup.com%2Flgbt%2FHumble-Hearts-provides-limitless-charity-to-Chicago%2F48034.html&v=3", :category => "article")
 Medium.create(:title => "Woman 'Means the World' to Homeless", :link => "https://slack-redir.net/link?url=http%3A%2F%2Fchronicleillinois.com%2Fnews%2Fcook-county-news%2Fwoman-means-world-homeless%2F&v=3", :category => "article")
-Medium.create(:title => "Humble Hearts | Helping People in Need", :link => "https://www.youtube.com/watch?v=pRLVcdrQdnw", :category => "video")
+Medium.create(:title => "Humble Hearts | Helping People in Need", :link => "https://www.youtube.com/embed/pRLVcdrQdnw", :category => "video")
+
 Medium.create(:title => "Humble Hearts Organization", :link => "http://chicago.everyblock.com/kindness/jul18-humble-hearts-organization-6267613/", :category => "article")
 Medium.create(:title => "Medicaid Users Wait for Budget Outcome", :link => "http://www.chicagotalks.org/2015/03/rauners-proposed-cuts-could-have-negative-impact-on-homeless-medicaid-users/", :category => "article")
-Medium.create(:title => "Humble Hearts Surprises Linda", :link => "https://www.youtube.com/watch?v=EEidg8jN-vo", :category => "video")
-Medium.create(:title =>"Humble Hearts Gives Homeless Man Free Wheel Chair", :link => "https://www.youtube.com/watch?v=TEdu-9aqCZk", :category => "video")
-Medium.create(:title => "Humble Hearts Surprises Homeless Teen With Birthday Party", :link => "https://www.youtube.com/watch?v=y5AVb419Br8", :category => "video")
-Medium.create(:title => "Humble Hearts Surprises Single Mom with Free Furniture", :link => "https://www.youtube.com/watch?v=97TWXVE_DZk", :category => "video")
-Medium.create(:title => "Humble Hearts Helps Single Mom in Need of Baby Items", :link => "https://www.youtube.com/watch?v=GyUR6hv4EBk", :category => "video")
+
+Medium.create(:title => "Humble Hearts Surprises Linda", :link => "https://www.youtube.com/embed/EEidg8jN-vo", :category => "video")
+
+Medium.create(:title =>"Humble Hearts Gives Homeless Man Free Wheel Chair", :link => "https://www.youtube.com/embed/TEdu-9aqCZk", :category => "video")
+
+Medium.create(:title => "Humble Hearts Surprises Homeless Teen With Birthday Party", :link => "https://www.youtube.com/embed/y5AVb419Br8", :category => "video")
+
+Medium.create(:title => "Humble Hearts Surprises Single Mom with Free Furniture", :link => "https://www.youtube.com/embed/97TWXVE_DZk", :category => "video")
+
+
+Medium.create(:title => "Humble Hearts Helps Single Mom in Need of Baby Items", :link => "https://www.youtube.com/embed/GyUR6hv4EBk", :category => "video")

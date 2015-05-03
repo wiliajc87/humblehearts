@@ -1,10 +1,15 @@
 <div class="media">
 	<h1>Media</h1>
-<p>People are noticing the work we're doing at Humble Hearts!</p>
-<% @category_hash.each do |key, value| %>
-  <h2><%= key %></h2>
-    <% value.each do |val| %>
-      <h3><%= link_to val.title, url_for(val.link)%></h3>
-    <% end %>
+  <p>People are noticing the work we're doing at Humble Hearts!</p>
+  <% @category_hash.each do |key, value| %>
+    <h2><%= key %></h2>
+      <% value.each do |val| %>
+        <%if val.category == "video" %>
+          <iframe width="640" height="390" src='<%= val.link%>' frameborder="0" allowfullscreen></iframe>
+        <%else%>
+          <h3><%= link_to val.title, url_for(val.link)%></h3>
+        <%end%>
+      <% end %>
   <% end %>
 </div>
+
