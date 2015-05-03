@@ -30,9 +30,11 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-	.gallery-image {
-		max-height: 160px;
+	img.gallery-image {
+		max-height: 140px;
 		max-width: 180px;
+		height: auto;
+		width: auto;
 		border: 2px solid $light-grey;
 	}
 	div {

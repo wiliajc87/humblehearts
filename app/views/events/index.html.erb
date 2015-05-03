@@ -1,11 +1,5 @@
 <h1>Events</h1>
 
-<% albums.each do |album| %>
-	<div id=<%= "gallery-anchor-#{album[0]['id']}" %>></div>
-<% end %>
-
-<script src='/build/javascripts/application.js'></script>
-
 <div id="events-wrapper">
 	<% @events.each do |event| %>
 		<ul>
@@ -16,3 +10,11 @@
 		</ul>
 	<% end %>
 </div>
+
+<h2>Past Events</h2>
+
+<% albums.each do |album| %>
+	<div id=<%= "gallery-anchor-#{album[0]['id']}" %>></div>
+<% end %>
+
+<script src='/build/javascripts/application.js'></script>
