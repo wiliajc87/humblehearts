@@ -1,6 +1,6 @@
 module Categories
   extend ActiveSupport::Concern
-  def categorify
+  def resource_categorify
     @shelters = CommunityResource.where(:category => "shelter")
     @community_centers  = CommunityResource.where(:category => "community centers")
     @housing_laws = CommunityResource.where(:category => "housing laws")
@@ -21,6 +21,16 @@ module Categories
       "Low Income Medical Centers" => @low_income_community_medical_clinics,
       "Mental Health and Addiction Services" =>@mental_health_and_addiction_services,
       "Other" => @other
+    }
+  end
+  def media_categorify
+    @videos = Medium.where(:category => "video")
+    @articles  = Medium.where(:category => "article")
+    @photos = Medium.where(:category => "photo")
+    @category_hash = {
+      "Video" => @videos,
+      "Articles" => @articles,
+      "Photos" => @photos
     }
   end
 end
