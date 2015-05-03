@@ -32,7 +32,7 @@ ActiveRecord::Schema.define(version: 20150503003731) do
     t.string   "frequency"
     t.string   "description"
     t.string   "album_link"
-    t.string   "date_of_event"
+    t.date     "date_of_event"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end
