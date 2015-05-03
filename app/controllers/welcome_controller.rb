@@ -15,4 +15,18 @@ class WelcomeController < ApplicationController
 
   def contact_us
   end
+
+  def log_in
+  end
+
+  def administration
+    if user_signed_in?
+      # @media = Medium.all
+      @community_resources = CommunityResource.all
+      @team_members = TeamMember.all
+      render "administration"
+    else
+      redirect_to root_path
+    end
+  end
 end
