@@ -10,7 +10,7 @@
       <% value.each do |val| %>
       <li><%=val.name%></li>
       <li><%=val.phone%></li>
-      <li><%=val.url%></li>
+      <li><a href='#{value.url}' target="_blank"><%=val.url%></a></li>
       <li><%=val.address%></li>
       <li><%=val.description%></li>
       <br>
