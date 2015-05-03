@@ -10,7 +10,7 @@ Do not use ear candles.')
 
 Event.create(title: "Annual Holiday Christmas Party", frequency: "Annually", description: "Wraping gifts and showing love to the homeless by filling shoe boxes with all kinds of treats such as socks, hygiene products, snacks, gloves, scarves and other miscellaneous items to pass out during the holiday" , album_link: "" )
 
-Event.create(title: "Free Coat, Clothing, and Toy Giveaway", frequency: , description: "Showing kindness and love by providing a hot meal, warm clothing, and new toys to children", album_link: "" )
+Event.create(title: "Free Coat, Clothing, and Toy Giveaway", frequency: "Annually" , description: "Showing kindness and love by providing a hot meal, warm clothing, and new toys to children", album_link: "" )
 
 Event.create(title: "Free Prom and Graduation Dress Giveaway" , frequency: "Annually" , description: "Giving low income girls a free dress to prom or their graduation along with shoes, makeup, and accessories", album_link: "")
 
