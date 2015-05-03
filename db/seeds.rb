@@ -1,4 +1,3 @@
-
 require 'csv'
 
 #event seeds
@@ -24,6 +23,7 @@ TeamMember.create(name: "Carol Boyd" , title: "President", photo_url: "", bio: "
 
 I became homeless by choice.  The street, as ugly as my life had become, was preferable to the abuse at my parents’ hands.  I walked away from the street when I found a new reason for living, my daughter.
 
+
 I work full time but run Humble Hearts as an unpaid volunteer nights and weekends, feeding the homeless 3-4 nights a week, collecting food, clothing, furniture and other items, making deliveries and creating special events to support them. It is my goal to one day run Humble Hearts full time and be able to quit my day job, so I can dedicate my efforts full time to helping people who are struggling everyday to find a reason to survive.
 
 I will never forget where I came from and that is why I named my company, “Humble Hearts”.  It is a daily, personal reminder to me to stay focused, and genuinely help those in need. My goal is to invest in those that I help individually so that they get all the attention needed to feel special and know that someone relates to their situation. I want to change humiliation into dignity with comforting smiles. To show that no matter where you came from it doesn’t mean you have to remain there, it just means you have to work to get to that new beginning a little harder than others. Humble Hearts is a part of that beginning, and I am willing to help because I believe in chances, and I believe that God wants us all to help each other with compassion. Humble Hearts is not a religious foundation but because I carry God in me this leads me to help mankind – We are a humanitarian charity work in God’s name" )
@@ -36,30 +36,19 @@ TeamMember.create(name: "Maria A. Castillo", title: "Event Coordinator", photo_u
 
 TeamMember.create(name: "Melissa Hernandez" , title: "Operations Coordinator", photo_url: "", bio:"Hi my name is Melissa Hernandez. I’m a mother, an activist, a social worker, and college student, and a medical care worker. I was raised living in poverty, and I endured the harsh frustrations that followed with it. I experienced trauma from an early age, and trauma became a normal re-occurring side effect just like breathing for me. When I was 5, I was sexually assaulted by my stepfather, in which assault turned to abuse until I was 10. I was exposed to human trafficking during my child years. My step father ran an escort service and sold drugs out of our home. I witnessed prostitutes coming in and out, and I even answered the phone calls of Johns, and told them that someone will call them back. I witness drug abuse by my parents, and I even cut plastic straws in half and gave them as gifts to my step dad. I endured physical, and emotional abuse. St times I wondered if God actually existed. My scapegoat was school during my early years, even though, I never stood in a school long enough to make any friends. I tried to focus on my education, but as I was growing up, my fear for people and distrust in society overpowered me, and I quickly dropped out of Carl Schurz during my freshman year. After my drop out, I turned to gangs. I felt like I was finally in control of something, I felt a sense of power that I NEVER had in my life, and I quickly started hurting people. I hated that I hurt people, but it was expected of me from my fellow gang members. I started using drugs to numb the pain. I was angry! I grabbed a gun from a fellow gang members hiding place and I snuck out the house, I put the gun to my head, and I pulled the trigger. The gun jammed, and I sat there crying wondering why I can’t just simply die. I was angry! I was in pain! I was angry towards my stepfather, my mother, and most of all, myself. I quickly went from abusing cocaine and upgraded to Heroine. I became an IV user, and fell victim of to the streets. I became part of the system, and had numerous arrests from felony drug possession to trespassing. I hated myself, but I was also afraid of better if it even existed. I actually believed that this was to become of the rest of my life, because I was never sure what the true meaning of love was, or even how love felt for that matter, or even if Love ever existed. Love was an illusion to me. I prayed for death! When I was 22, I had my first child. I was terrified the day he was born due to a few complications. When I heard my baby boy scream and cry for the first time, my heart was placed back together, and I cried tears of this happiness that I didn’t understand. I, for the first time felt LOVE. Today I can proudly call myself a survivor. I had to crawl, and then take baby steps, and then I started walking upright, to running throughout my life holding my head high. I am currently an advocate for sexual abuse survivors, the homeless, and the mentally and emotionally unstable, drug addicts and victims of this economically biased system. I’m a single mother of two beautiful boys. I am the Operation Coordinator of Humble Hearts. I walk with blinders on, and I do not judge. I do not have the ability to see a skin color, or a gender, or sexuality, or drug user, I now understand that god built me this way. I spent a majority of my life questioning my existence. I now understand my trials and tribulations. I know my purpose. I have the ability to simply love like I once yearned to be love. Today, I understand the importance of caring, and having a joyous heart. I simply only see human beings who need us. I use my unprejudiced words of wisdom to encourage and uplift people. I’m here to let everyone know that miracles do exist. I dedicate my life to not only my family, but to our unsung victims of our communities.")
 
-
+#Community Resource Seeds
 
 cat = ["shelter", "community centers", "housing laws", "homeless laws", "pantries", "soup kitchens", "free medical centers", "low income community medical clinics", "mental health and addiction services", "other" ]
 
-#Community Resource Seed
-# cat.each do |category|
-# 	category
-# 	2.times do CommunityResource.create(name: "bloop", phone: "000-999-3333", url: "http://www.fakeu.com", address: "111.fakey drive chicago il 22222", category: category, description: "this is a great resource you should use")
-# 	end
-# end
+community_file = "content/community_resources.csv"
 
-# CSV.foreach("content/test.csv") do |row|
-#  if row[0] == ","
-#    next
-#  CommunityResource.create(row)
-#  end
-# end
-
- community_file = "content/test.csv"
-
- CSV.foreach(community_file, {headers: true}) do |row|
-  obj = CommunityResource.new(category: row[0], name: row[1], url: row[2], phone: row[3], address: row[4], description: row[5])
+CSV.foreach(community_file, {headers: true}) do |row|
+  obj = CommunityResource.new(category: row[0].downcase, name: row[1], url: row[2], phone: row[3], address: row[4], description: row[5])
   obj.save
 end
+
+
+#Media Seeds
 
 Medium.create(:title => "Bookkeeper is Fearless Friend to the Homeless", :link => "https://slack-redir.net/link?url=http%3A%2F%2Fchicago.suntimes.com%2Fchicago-politics%2F7%2F71%2F153936%2Fbookkeeper-is-fearless-friend-to-the-homeless&v=3", :category => "article")
 Medium.create(:title => "Humble Hearts Provides Limitless Charity to Chicago", :link => "https://slack-redir.net/link?url=http%3A%2F%2Fwww.windycitymediagroup.com%2Flgbt%2FHumble-Hearts-provides-limitless-charity-to-Chicago%2F48034.html&v=3", :category => "article")
