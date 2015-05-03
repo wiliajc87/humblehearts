@@ -4,22 +4,36 @@ class CommunityResourcesController < ApplicationController
     categorify
   end
 
-  def new
-    @community_resource = CommunityResource.new
+  def show
+    @community_resource = CommunityResource.find(params[:id])
+    if @community_resource.destroy
+      redirect_to administration_path
+    else
+      redirect_to administration_path
+    end
   end
 
   def create
     @community_resource = CommunityResource.new(community_resource_params)
-    @community_resource.save
+    if @community_resource.save
+      redirect_to administration_path
+    end
   end
 
   def update
     @community_resource = CommunityResource.find(params[:id])
-    @community_resource.update(community_resource_params)
+    if @community_resource.update(community_resource_params)
+      redirect_to administration_path
+    end
   end
 
   def delete
-    @community_resource = CommunityResource.find(params[:id]).destroy
+    @community_resource = CommunityResource.find(params[:id])
+    if @community_resource.destroy
+      redirect_to administration_path
+    else
+      redirect_to administration_path
+    end
   end
   private
     def community_resource_params

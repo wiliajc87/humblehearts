@@ -1,0 +1,43 @@
+footer {
+	font-family: $body-font;
+	background-color: $light-grey;
+	color: $dark-grey;
+	padding-top: 1em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 1.5em;
+
+	a {
+		color: $dark-grey;
+		text-decoration: none;
+
+		&:hover {
+			color: $red;
+		}
+	}
+
+	.sitemap {
+	  float: left;
+
+		p {
+			text-align: left;
+			font-style: bold;
+			color: black;
+		}
+
+		ul {
+			columns: 2;
+		  -webkit-columns: 2;
+		  -moz-columns: 2;
+		  width: 25em;
+		}
+	}
+
+	p {
+		text-align: right;
+	}
+
+	.copyright {
+		padding-top: 0.8em;
+	}
+}

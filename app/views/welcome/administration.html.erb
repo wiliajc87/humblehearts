@@ -1,1 +1,20 @@
-ADMIN PAGE, BABY!
+<h1>Team Members</h1>
+  <%= render "team_members/form"%>
+<% if @team_members %>
+  <%= render "team_members/update_form"%>
+<% end %>
+<h1>Community Resources</h1>
+  <%= render "community_resources/form"%>
+<% if @community_resources %>
+  <%= render "community_resources/update_form"%>
+<% end %>
+<h1>Media</h1>
+  <%= render "media/form"%>
+<% if @media %>
+  <%= render "media/update_form"%>
+<% end %>
+<h1>Events</h1>
+  <%= render "events/form"%>
+<% if @media %>
+  <%= render "events/update_form"%>
+<% end %>
