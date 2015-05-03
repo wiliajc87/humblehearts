@@ -1,3 +1,4 @@
+/config/initializers/flickr.rb
 *.rbc
 capybara-*.html
 .rspec

@@ -57,6 +57,7 @@ GEM
     execjs (2.5.2)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
+    flickraw (0.9.8)
     font-awesome-rails (4.3.0.0)
       railties (>= 3.2, < 5.0)
     foreman (0.78.0)
@@ -181,6 +182,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   devise
+  flickraw
   font-awesome-rails
   foreman
   jbuilder (~> 2.0)

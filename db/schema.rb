@@ -22,9 +22,8 @@ ActiveRecord::Schema.define(version: 20150503003731) do
     t.string   "url"
     t.string   "address"
     t.string   "category"
-    t.text     "description"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "events", force: :cascade do |t|
@@ -45,6 +44,16 @@ ActiveRecord::Schema.define(version: 20150503003731) do
     t.string   "title"
     t.string   "link"
     t.string   "type",       null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "services", force: :cascade do |t|
+    t.string   "name"
+    t.string   "phone"
+    t.string   "url"
+    t.string   "address"
+    t.string   "category"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
