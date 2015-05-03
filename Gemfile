@@ -38,6 +38,7 @@ gem 'foreman'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+#Front end stuff!
 gem "font-awesome-rails"
 
 group :development, :test do
