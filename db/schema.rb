@@ -28,12 +28,13 @@ ActiveRecord::Schema.define(version: 20150503003731) do
   end
 
   create_table "events", force: :cascade do |t|
-    t.string   "title",       null: false
+    t.string   "title",         null: false
     t.string   "frequency"
     t.string   "description"
     t.string   "album_link"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+    t.date     "date_of_event"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
   create_table "facebooks", force: :cascade do |t|
