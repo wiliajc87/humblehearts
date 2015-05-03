@@ -5,7 +5,10 @@ footer {
 	padding-top: 1em;
 	padding-left: 2em;
 	padding-right: 2em;
-	padding-bottom: 1.5em;
+	padding-bottom: 1em;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 
 	a {
 		color: $dark-grey;
@@ -33,11 +36,14 @@ footer {
 		}
 	}
 
+	.right-info {
+		float: right;
+		position: relative;
+		right: 4em;
+	}
+
 	p {
 		text-align: right;
 	}
 
-	.copyright {
-		padding-top: 0.8em;
-	}
 }
