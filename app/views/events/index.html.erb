@@ -5,3 +5,14 @@
 <% end %>
 
 <script src='/build/javascripts/application.js'></script>
+
+<div id="events-wrapper">
+	<% @events.each do |event| %>
+		<ul>
+			<li>
+				<p><%= event.title %></p>
+				<p><%= event.description %></p>
+			</li>
+		</ul>
+	<% end %>
+</div>

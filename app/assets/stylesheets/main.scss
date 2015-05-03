@@ -14,3 +14,7 @@ html, body {
 	width: 100%;
 	// background: $dark-grey;
 }
+
+div#wrapper {
+	margin: 0 0 130px 0; /* stops footer from overflowing page */
+}
