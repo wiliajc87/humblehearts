@@ -19,6 +19,9 @@ Shelters,Heartland Alliance,www.heartlandalliance.org,(773)433-1200,4822 N. Broa
 Shelters,La Casa Norte,www.lacasanorte.org,(773)276-4900,3507 W. North Ave ,Young Men Shelter
 Shelters,Teen Living Program Beldford House,www.tlpchicago.org,(773) 548-4443,3745 S. Indiana Avenue,Youth Housing
 Shelters,El Rescate  ,www.elrescatechicago.org,(872) 829-2494,2739 W. Divsion,Youth Housing
+Shelters,La Casa Norte,www.lacasanorte.org,(773)276-4900,3507 W. North Ave ,Young Men Shelter
+Shelters,Teen Living Program Beldford House,www.tlpchicago.org,(773) 548-4443,3745 S. Indiana Avenue,Youth Housing
+Shelters,El Rescate  ,www.elrescatechicago.org,(872) 829-2494,2739 W. Divsion,Youth Housing
 Community Centers,Inner Voice,innervoicechicago.org,(312) 666-8110,,
 Community Centers,The Lincoln Park Community,lpcsonline.org,(773) 549-6111,600 West Fullerton parkway,
 Community Centers,Englewood Center,www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,1140 W. 79th Street,
@@ -30,7 +33,9 @@ Community Centers,Trina Davila ,www.cityofchicago.org/city/en/depts/fss/provdrs/
 Community Centers,Lift Chicago,,,4554 N. Broadway,
 Community Centers,Heartland Alliance,www.heartlandalliance.org,(773)433-1200,4822 N. Broadway,
 Housing Laws,Tennants Rights,www.tenant.org,(773)478-1133,Appointment need,
-Housing Laws,Access Living,www.accessliving.org,(312)253-7000,115 W. Chicago Ave,legal assistance
+Housing Laws,Access Living,www.accessliving.org,(312)253-7000,115 W. Chicago Ave,legal assistance,
+Housing Laws,Tennants Rights,www.tenant.org,(773)478-1133,Appointment need,
+Housing Laws,Access Living,www.accessliving.org,(312)253-7000,115 W. Chicago Ave,legal assistance,
 Housing Laws,Arnold E. Toole,www.toolelaw.com,(773)684-5730,1525 East 53rd Street,
 Housing Laws,Asain Human Services,www.ahschicago.org,(773)293-8482 ,4753 N. Broadway,
 Housing Laws,Center for Conflict Resolution,www.ccrchicago.org,(312)922-6464,"11 E. Adams, Suite 500 ",
@@ -43,6 +48,10 @@ Housing Laws,Uptown People's Law Center  ,www.uplcchicago.org,(773)769-1410,4413
 Homeless Laws,Homeless Coalition for the Homeless,,(800)940-1119,,
 Homeless Laws,ERZA Hotline ,,(800)248-1818,,
 Homeless Laws,Family Rescue,,(773)375-8400,,
+Homeless Laws,Homeless Coalition for the Homeless,,(800)940-1119,,
+Homeless Laws,ERZA Hotline ,,(800)248-1818,,
+Homeless Laws,Family Rescue,,(773)375-8400,,
+Homeless Laws,Legal Assistance Foundation of Metropolitan Chicago,,(312)341-1070,,
 Food Pantries,Greater Food Depository,www.chicagosfoodbank.org,(773)247-3663,,
 Food Pantries,Wells Temple of Deliverance Community Development Center,,(773) 533-6807,"2739 W Madison St, Chicago, IL  60612",
 Food Pantries,TSA: Midwest Corps Pantry,,(312) 733-4801,"20 S Campbell Ave, Chicago, IL  60612",
@@ -84,6 +93,7 @@ Soup/Community Kitchens ,Ravenswood Community Serv. SK c/o All Saints Episcopal 
 Soup/Community Kitchens ,Cornerstone Community Outreach,,(773) 271-8163 ,"4626 N Clifton Ave, Chicago, IL  60640",
 Soup/Community Kitchens ,Preston Bradley Center,,(773) 784-6633,"941 W Lawrence Ave 2nd Fl, Chicago, IL  60640",
 Soup/Community Kitchens ,St. Thomas of Canterbury,,(773) 878-5507,"4827 N Kenmore Ave, Chicago, IL  60640",
+Soup/Community Kitchens ,FCHN Soup Kitchen,,(773) 436-8277,"1234 W 59th St, Chicago, IL  60636",
 Free Medical Centers,Community Health Clinic - West Town,www.communityhealth.org,773.395.9900,2611 W Chicago Ave,
 Free Medical Centers,Community Health Clinic - Englewood,www.communityhealth.org,773.994.1515,641 W 63rd St,
 Free Medical Centers,Washington Park Children's Free Health Clinic,,773-924-0220,5350 S Prairie Avenue,
