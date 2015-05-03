@@ -1,35 +1,27 @@
 <div class="admin_container">
- <p class="admin_headers">Team Members</p>
- <p class="admin_subheaders">Add a team member</p>
+  <p class="admin_headers">Team Members</p>
+  <p class="admin_subheaders">Add a team member</p>
   <%= render "team_members/form"%>
   <br>
-<% if @team_members %>
- <p class="admin_subheaders">Edit a team member's info</p>
+  <p class="admin_subheaders">Edit a team member's info</p>
   <%= render "team_members/update_form"%>
-<% end %>
 <hr>
 <p class="admin_headers">Community Resources</p>
  <p class="admin_subheaders">Add a resource</p>
   <%= render "community_resources/form"%>
   <br>
-<% if @community_resources %>
  <p class="admin_subheaders">Edit a resource</p>
   <%= render "community_resources/update_form"%>
-<% end %>
 <hr>
 <p class="admin_headers">Media</p>
  <p class="admin_subheaders">Add a medium</p>
   <%= render "media/form"%>
-<% if @media %>
  <p class="admin_subheaders">Edit a medium</p>
   <%= render "media/update_form"%>
-<% end %>
 <hr>
 <p class="admin_headers">Events</p>
  <p class="admin_subheaders">Add an event</p>
   <%= render "events/form"%>
-<% if @media %>
  <p class="admin_subheaders">Edit an event</p>
   <%= render "events/update_form"%>
-<% end %>
 </div>
