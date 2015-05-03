@@ -1,0 +1,48 @@
+header {
+  height: 700px;
+  background-image: image-url("hungryhomlesssign.png");
+  background-position: bottom;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header img {
+	width: 300px;
+	margin: 30px 0px;
+}
+.centered {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+nav {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+nav ul{
+	list-style-type: none;
+	text-align: center;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	background-color: rgba(255, 0, 0, 0.5);
+	width: 100%;
+}
+
+nav ul li {
+	margin: 20px;
+	display: inline-block;
+
+}
+
+
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
