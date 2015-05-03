@@ -1,4 +1,14 @@
 footer {
+	font-family: $body-font;
+	background-color: $light-grey;
+	color: $dark-grey;
 
+	a {
+		color: $dark-grey;
+		text-decoration: none;
 
+		&:hover {
+			color: $teal;
+		}
+	}
 }
