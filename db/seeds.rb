@@ -1,4 +1,6 @@
 
+require 'csv'
+
 #event seeds
 
 Event.create(title: "Annual Holiday Christmas Party", frequency: "Annually", description: "Wraping gifts and showing love to the homeless by filling shoe boxes with all kinds of treats such as socks, hygiene products, snacks, gloves, scarves and other miscellaneous items to pass out during the holiday" , album_link: "", date_of_event: "January 1, 2015".to_date)
@@ -39,8 +41,24 @@ TeamMember.create(name: "Melissa Hernandez" , title: "Operations Coordinator", p
 cat = ["shelter", "community centers", "housing laws", "homeless laws", "pantries", "soup kitchens", "free medical centers", "low income community medical clinics", "mental health and addiction services", "other" ]
 
 #Community Resource Seed
-cat.each do |category|
-	category
-	2.times do CommunityResource.create(name: "bloop", phone: "000-999-3333", url: "http://www.fakeu.com", address: "111.fakey drive chicago il 22222", category: category, description: "this is a great resource you should use")
-	end
+# cat.each do |category|
+# 	category
+# 	2.times do CommunityResource.create(name: "bloop", phone: "000-999-3333", url: "http://www.fakeu.com", address: "111.fakey drive chicago il 22222", category: category, description: "this is a great resource you should use")
+# 	end
+# end
+
+# CSV.foreach("content/test.csv") do |row|
+#  if row[0] == ","
+#    next
+#  CommunityResource.create(row)
+#  end
+# end
+
+ community_file = "content/test.csv"
+
+ CSV.foreach(community_file, {headers: true}) do |row|
+  obj = CommunityResource.new(category: row[0], name: row[1], url: row[2], phone: row[3], address: row[4], description: row[5])
+  obj.save
 end
+
+
