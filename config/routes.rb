@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   get 'contact_us' => 'welcome#contact_us'
   resources :donate
   resources :services
-  get 'photos' => 'photos#index'
+  get 'events' => 'events#index'
 
 
   resources :community_resources
