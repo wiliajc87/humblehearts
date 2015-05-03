@@ -1,4 +1,3 @@
-
 require 'csv'
 
 #event seeds
@@ -23,6 +22,7 @@ Event.create(title: "Baby Shower", frequency: "Annually", description: "Our gian
 TeamMember.create(name: "Carol Boyd" , title: "President", photo_url: "", bio: "Growing up in poverty, in an abusive home that was void of any compassion, I never thought my life would take me to this place, where I would be doing what I am doing today. As I grew, helping more and more people, it became a dream of mine to have my own foundation to serve others by helping those in need.  I grew up wishing there was a Humble Hearts to come help me, rescue, & lift me in times of humiliation, and hopelessness.
 
 I became homeless by choice.  The street, as ugly as my life had become, was preferable to the abuse at my parents’ hands.  I walked away from the street when I found a new reason for living, my daughter.
+
 
 I work full time but run Humble Hearts as an unpaid volunteer nights and weekends, feeding the homeless 3-4 nights a week, collecting food, clothing, furniture and other items, making deliveries and creating special events to support them. It is my goal to one day run Humble Hearts full time and be able to quit my day job, so I can dedicate my efforts full time to helping people who are struggling everyday to find a reason to survive.
 
