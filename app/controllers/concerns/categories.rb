@@ -9,6 +9,7 @@ module Categories
     @soup_kitchens = CommunityResource.where(:category => "soup kitchens")
     @free_medical_centers = CommunityResource.where(:category => "free medical centers")
     @low_income_community_medical_clinics = CommunityResource.where(:category => "low income community medical clinics")
+    @mental_health_and_addiction_services = CommunityResource.where(:category => "mental health and addiction services")
     @other = CommunityResource.where(:category => "other")
     @category_hash = {
       "Shelters" => @shelters,
@@ -18,6 +19,7 @@ module Categories
       "Soup Kitchens" => @soup_kitchens,
       "Free Medical Centers" => @free_medical_centers,
       "Low Income Medical Centers" => @low_income_community_medical_clinics,
+      "Mental Health and Addiction Services" =>@mental_health_and_addiction_services
       "Other" => @other
     }
   end
