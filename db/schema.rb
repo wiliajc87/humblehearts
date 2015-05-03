@@ -37,11 +37,6 @@ ActiveRecord::Schema.define(version: 20150503003731) do
     t.datetime "updated_at",    null: false
   end
 
-  create_table "facebooks", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "media", force: :cascade do |t|
     t.string   "title"
     t.string   "link"
