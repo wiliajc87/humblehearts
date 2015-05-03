@@ -1,3 +1,4 @@
+require 'date'
 class WelcomeController < ApplicationController
   def index
   end

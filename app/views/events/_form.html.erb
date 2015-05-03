@@ -4,6 +4,6 @@
     <%= f.text_field :description %>
     <%= f.text_field :album_link %>
     <%= f.text_field :frequency %>
-    <%= date_select('event', :date_of_event) %>
+    <%= select_date Date.today, prefix: :start_date %>
   <%= f.submit %>
 <% end %>
