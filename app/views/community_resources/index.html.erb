@@ -1,5 +1,6 @@
 <h2>Services</h2>
 
+
 <div class="row">
   <p class="center-message">At Humble Hearts, we strive to provide you with anything you could possibly need to help get you back on your feet, even if we ourselves are unable to provide it. We try our best to have all available options for our clients. Please use any and all of these resources that you would like. If you have a suggestion for a new resource please visit our contact us page.</p>
 </div>
@@ -11,7 +12,7 @@
         <li><h3><%= key %></h3></li>
           <ul>
           <% value.each do |val| %>
-            <li><h4><a href="<%=val.url%>"><%=val.name%></h4></a>
+            <li><h4><a href="<%=val.url%> target="_blank""><%=val.name%></h4></a>
               <ul>
                 <li>Phone: <%=val.phone%></li>
                 <li>Address: <%=val.address%></li>
