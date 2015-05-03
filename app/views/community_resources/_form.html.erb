@@ -1,0 +1,9 @@
+<%= form_for @community_resource, :html => { :multipart => true } do |f| %>
+    <%= f.text_field :name %>
+    <%= f.text_field :phone %>
+    <%= f.text_field :url %>
+    <%= f.text_field :address %>
+    <%= f.text_area :description, size: "60x12" %>
+    <%= f.select :category, options_for_select(["shelter", "community centers", "housing laws", "homeless laws", "pantries", "soup kitchens", "free medical centers", "low income community medical clinics", "mental health and addiction services", "other" ]) %>
+  <%= f.submit %>
+<% end %>

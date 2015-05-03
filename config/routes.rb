@@ -18,6 +18,7 @@ Rails.application.routes.draw do
 
   resources :community_resources
   resources :events
+  resources :team_members
 
 
   # Example of regular route:
