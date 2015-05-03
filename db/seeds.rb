@@ -10,10 +10,11 @@ Do not clean your ears with bobby pins, twisted napkin corners, or other long po
 Do not use cotton swabs. They will merely push the wax deeper into the ear canal, causing a blockage.
 Do not use ear candles.')
 
-t = TeamMember.create(name: 'Taylor', title: 'like a boss', photo_url: 'https://scontent-ord.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/11150484_10204278335862435_8430420190725809863_n.jpg?oh=077cdc9bd9c9481f97e7ef526315fe09&oe=55D2324D', bio: 'To avoid this problem, refrain from the following:
+taylor = TeamMember.create(name: 'Taylor', title: 'like a boss', photo_url: 'https://scontent-ord.xx.fbcdn.net/hphotos-xaf1/v/t1.0-9/11150484_10204278335862435_8430420190725809863_n.jpg?oh=077cdc9bd9c9481f97e7ef526315fe09&oe=55D2324D', bio: 'To avoid this problem, refrain from the following:
 Do not clean your ears with bobby pins, twisted napkin corners, or other long pointed objects.
 Do not use cotton swabs. They will merely push the wax deeper into the ear canal, causing a blockage.
 Do not use ear candles.')
+
 
 #event seeds
 
@@ -30,3 +31,12 @@ Event.create(title: "Back to School Summer Kids Fest" , frequency: "Annually", d
 Event.create(title: "Winter Scarf Making Event", frequency: "Annually" , description: "Getting ready for the hoildays by making homemade scarves for children in need", album_link: )
 
 Event.create(title: "Baby Shower", frequency: "Annually", description: "Our giant baby shower to show support to low income mothers who can shop for free on all of our baby items", album_link: )
+
+cat = ["shelter", "community centers", "housing laws", "homeless laws", "pantries", "soup kitchens", "free medical centers", "low income community medical clinics", "mental health and addiction services", "other" ]
+
+cat.each do |category|
+	category
+	2.times do CommunityResource.create(name: Faker::Lorem.sentence, phone: Faker::PhoneNumber.phone_number, url: Faker::Internet.url, address: Faker::Address.street_address, category: category, description: Faker::Lorem.paragraph)
+	end
+end
+

@@ -1,0 +1,6 @@
+<%= form_for @medium, :html => { :multipart => true } do |f| %>
+    <%= f.text_field :title %>
+    <%= f.text_field :link %>
+    <%= f.select :category, options_for_select(["article", "photo", "video"])%>
+  <%= f.submit %>
+<% end %>
