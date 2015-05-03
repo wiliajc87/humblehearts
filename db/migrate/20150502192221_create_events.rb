@@ -9,3 +9,4 @@ class CreateEvents < ActiveRecord::Migration
     end
   end
 end
+
