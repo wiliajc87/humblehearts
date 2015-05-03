@@ -1,10 +1,10 @@
 <% @team_members.each do |member|%>
   <%= form_for member, :html => { :multipart => true } do |f| %>
-    <%= f.text_field :name %>
-    <%= f.text_field :title %>
-    <%= f.text_field :photo_url %>
-    <%= f.text_area :bio, size: "60x12" %>
+    Name:<br> <%= f.text_field :name, size: "60"%><br>
+    Title:<br> <%= f.text_field :title, size: "60"%><br>
+    Photo:<br> <%= f.text_field :photo_url, size: "60"%><br>
+    Bio:<br> <%= f.text_area :bio, size: "60x12" %><br>
     <%= f.submit %>
-    <%= link_to 'Destroy', member, method: :delete, data: { confirm: 'Are you sure?' } %>
+    <%= link_to 'Remove Member', member, method: :delete, data: { confirm: 'Are you sure?' } %>
   <% end %>
 <% end %>

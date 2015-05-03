@@ -1,11 +1,12 @@
 <% @events.each do |event|%>
   <%= form_for event, :html => { :multipart => true } do |f| %>
-    <%= f.text_field :title %>
-    <%= f.text_field :frequency %>
-    <%= f.text_field :description %>
-    <%= f.text_field :album_link %>
-    <%= f.text_field :date_of_event %>
+    Title:<br><%= f.text_field :title, size: "60"  %><br>
+    Event Date:<br><%= f.text_field :date_of_event, size: "60"  %><br>
+    Frequency:<br><%= f.text_field :frequency, size: "60"  %><br>
+    Description:<br><%= f.text_field :description, size: "60"  %><br>
+    Link to Photos:<br><%= f.text_field :album_link, size: "60"  %><br><br>
+
     <%= f.submit %>
-    <%= link_to 'Destroy', event, method: :delete, data: { confirm: 'Are you sure?' } %>
+    <%= link_to 'Remove Event', event, method: :delete, data: { confirm: 'Are you sure?' } %><br><br>
   <% end %>
 <% end %>
