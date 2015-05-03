@@ -1,9 +1,7 @@
 require 'flickr.rb'
 
-# FlickRaw.api_key="b2aef871a11feaaacea0b0095199ff81"
-# FlickRaw.shared_secret="801763578c315854"
-
 class EventsController < ApplicationController
+  include EventsHelper
 
   def index
     @events = Event.all
@@ -41,18 +39,7 @@ class EventsController < ApplicationController
   end
 
   def media_api
-    flickr = Flickr.new(ENV["FLICKR_KEY"]) 
-    user = flickr.users('humbleheartsorg@yahoo.com')
-    list = user.photos
-    sources = []
-    list.each do |hash|
-      sources.push({
-        src: "https://farm#{hash["farm"]}.staticflickr.com/#{hash["server"]}/#{hash["id"]}_#{hash["secret"]}.jpg",
-        title: hash.title,
-        desc: hash.description
-      })
-    end
-    render json: sources
+    render json: photos
   end
 
   private

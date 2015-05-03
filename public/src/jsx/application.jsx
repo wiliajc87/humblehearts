@@ -1,36 +1,21 @@
 var React = require('react')
+    , http = require('http')
     , Carousel = require('nuka-carousel')
     , key = 0
     , anchorId = 0
 
-var events =
-  [{"title":"boop",
-  "photos": [
-    <img key={key++} src="http://nebula.wsimg.com/b0e9b01b8c752c727f6ae2a166a02cfc?AccessKeyId=D8959FC4FA6F24CE3A19&disposition=0&alloworigin=1" />,
-    <img key={key++} src="http://nebula.wsimg.com/9961018a3f97122344f4bfe08e2ed9fa?AccessKeyId=D8959FC4FA6F24CE3A19&disposition=0&alloworigin=1" />,
-    <img key={key++} src="http://nebula.wsimg.com/34d576ca3605458bb67da77ed41676b3?AccessKeyId=D8959FC4FA6F24CE3A19&disposition=0&alloworigin=1" />,
-    <img key={key++} src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide4" />,
-    <img key={key++} src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide5" />,
-    <img key={key++} src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide6" />
-  ]},
-  {"title":"foobar",
-  "photos": [
-    <img key={key++} src="http://nebula.wsimg.com/b0e9b01b8c752c727f6ae2a166a02cfc?AccessKeyId=D8959FC4FA6F24CE3A19&disposition=0&alloworigin=1" />,
-    <img key={key++} src="http://nebula.wsimg.com/9961018a3f97122344f4bfe08e2ed9fa?AccessKeyId=D8959FC4FA6F24CE3A19&disposition=0&alloworigin=1" />,
-    <img key={key++} src="http://nebula.wsimg.com/34d576ca3605458bb67da77ed41676b3?AccessKeyId=D8959FC4FA6F24CE3A19&disposition=0&alloworigin=1" />,
-    <img key={key++} src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide4" />,
-    <img key={key++} src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide5" />,
-    <img key={key++} src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide6" />
-  ]},
-  {"title":"foobar2",
-  "photos": [
-    <img key={key++} src="http://nebula.wsimg.com/b0e9b01b8c752c727f6ae2a166a02cfc?AccessKeyId=D8959FC4FA6F24CE3A19&disposition=0&alloworigin=1" />,
-    <img key={key++} src="http://nebula.wsimg.com/9961018a3f97122344f4bfe08e2ed9fa?AccessKeyId=D8959FC4FA6F24CE3A19&disposition=0&alloworigin=1" />,
-    <img key={key++} src="http://nebula.wsimg.com/34d576ca3605458bb67da77ed41676b3?AccessKeyId=D8959FC4FA6F24CE3A19&disposition=0&alloworigin=1" />,
-    <img key={key++} src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide4" />,
-    <img key={key++} src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide5" />,
-    <img key={key++} src="http://placehold.it/1000x400/ffffff/c0392b/&text=slide6" />
-  ]}]
+function getPhotos() {
+  http.get('/media_api', function(response) {
+    response.on('data', function(data) {
+      data = JSON.parse(data);
+      renderPhotos(data);
+    })
+  }).on('error', function(error) {
+    console.error(error)
+  })
+}
+
+getPhotos();
 
 var Decorators = [{
   component: React.createClass({
@@ -60,23 +45,25 @@ var Decorators = [{
 var Gallery = React.createClass({
   mixins: [Carousel.ControllerMixin],
   render() {
+    console.log(this.props.event)
     return (
       <Carousel decorators={Decorators} key={key++} slidesToShow={3}>
-        {this.props.event["photos"]}
+        <img src={this.props.event} />
       </Carousel>
     )
   }
 });
 
-for (var i = 0; i < events.length; i++) {
-  console.log(key)
-  React.render(
-    <div>event {events[i]["title"]}
-      <Gallery key={key++} event={events[i]}>
-        <div key={key++} id="events-title">{events[i]["title"]}</div>
-      </Gallery>
-    </div>,
-    document.getElementById('gallery-anchor-' + anchorId)
-  );
-  anchorId++
+function renderPhotos(data) {
+  for (var i = 0; i < data.length; i++) {
+    console.log(data[i]["src"])
+    React.render(
+      <div>{event {data[i]["title"]}
+        <div id="event-title">{data[i]["title"]}</div>
+        <Gallery event={data[i]["src"]} />
+      </div>,
+      document.getElementById('gallery-anchor-' + data[i]["id"])
+    );
+    anchorId++
+  }
 }
