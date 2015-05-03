@@ -1,0 +1,9 @@
+<% @media.each do |medium|%>
+  <%= form_for medium, :html => { :multipart => true } do |f| %>
+    <%= f.text_field :title %>
+    <%= f.text_field :link %>
+    <%= f.select :category, options_for_select(["article", "photo", "video"], "#{medium.category}")%>
+    <%= f.submit %>
+    <%= link_to 'Destroy', medium, method: :delete, data: { confirm: 'Are you sure?' } %>
+  <% end %>
+<% end %>

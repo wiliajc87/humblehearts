@@ -3,7 +3,7 @@ class CreateMedia < ActiveRecord::Migration
     create_table :media do |t|
       t.string :title
       t.string :link
-      t.string :type, null: false
+      t.string :category, null: false
       t.timestamps null: false
     end
   end
