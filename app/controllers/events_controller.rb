@@ -39,7 +39,7 @@ class EventsController < ApplicationController
   end
 
   def media_api
-    render json: photos
+    render json: albums
   end
 
   private

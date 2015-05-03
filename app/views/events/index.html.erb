@@ -1,7 +1,7 @@
 <h1>Events</h1>
 
-<% photos.each do |photo| %>
-	<div id=<%= "gallery-anchor-#{photo[:id]}" %>></div>
+<% albums.each do |album| %>
+	<div id=<%= "gallery-anchor-#{album[0]['id']}" %>></div>
 <% end %>
 
 <script src='/build/javascripts/application.js'></script>

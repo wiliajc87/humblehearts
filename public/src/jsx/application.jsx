@@ -46,11 +46,10 @@ var Decorators = [{
 var Gallery = React.createClass({
   mixins: [Carousel.ControllerMixin],
   render() {
-    var src = this.props.event
     return (
-      <div>
-        <div id="event-title">{this.props.event}</div>
-        <Carousel decorators={Decorators} key={key++} slidesToShow={6}>
+      <div key={this.props.title} className="gallery-slider">
+        <div id="event-title">{this.props.title}</div>
+        <Carousel decorators={Decorators} slidesToShow={4}>
           {photos}
         </Carousel>
       </div>
@@ -59,15 +58,18 @@ var Gallery = React.createClass({
 });
 
 function renderPhotos(data) {
-  for (var i = 0; i < data.length; i++) {
-    photos.push(<img src={data[i]["src"]} />)
-    anchorId++
+  for (var n = 0; n < data.length; n++) {
+    for (var i = 0; i < data[n].length; i++) {
+      var photo = data[n][i]
+        , source = "https://farm" + photo["farm"] + ".staticflickr.com/" + photo["server"] + "/" + photo["id"] + "_" + photo["secret"] + ".jpg";
+      photos.push(<img className="gallery-image" src={source} />)
+    }
     React.render(
-      <div>
-        <div>{data[0]["title"]}</div>
-        <Gallery key={key++} />
+      <div id={"gallery-" + data[n][0]["id"]}>
+        <Gallery key={key++} title={data[n][0]["title"]} />
       </div>,
-      document.getElementById('gallery-anchor-' + data[i]["id"])
+      document.getElementById('gallery-anchor-' + data[n][0]["id"])
     );
+    photos = [];
   }
 }
