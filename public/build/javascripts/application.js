@@ -27807,38 +27807,13 @@ function getPhotos() {
 
 getPhotos();
 
-var Decorators = [{
-  component: React.createClass({displayName: "component",
-    render() {
-      return (
-        React.createElement("div", {className: "photos-carousel"}, 
-          React.createElement("a", {id: "previous-slide-" + key, className: "previous-slide", 
-            href: "#", 
-            onClick: this.props.previousSlide}, 
-            "<"
-          ), 
-          React.createElement("a", {id: "next-slide-" + key, className: "next-slide", 
-            href: "#", 
-            onClick: this.props.nextSlide}, 
-            ">"
-          )
-        )
-      )
-    }
-  }),
-  position: 'CenterLeft',
-  style: {
-    padding: 20
-  }
-}];
-
 var Gallery = React.createClass({displayName: "Gallery",
   mixins: [Carousel.ControllerMixin],
   render() {
     return (
       React.createElement("div", {key: this.props.title, className: "gallery-slider"}, 
         React.createElement("div", {className: "event-title"}, this.props.title), 
-        React.createElement(Carousel, {slidesToShow: 4}, 
+        React.createElement(Carousel, {slidesToShow: 3}, 
           photos
         )
       )

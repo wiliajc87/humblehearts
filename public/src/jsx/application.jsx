@@ -17,38 +17,13 @@ function getPhotos() {
 
 getPhotos();
 
-var Decorators = [{
-  component: React.createClass({
-    render() {
-      return (
-        <div className="photos-carousel">
-          <a id={"previous-slide-" + key} className={"previous-slide"}
-            href="#"
-            onClick={this.props.previousSlide}>
-            {"<"}
-          </a>
-          <a id={"next-slide-" + key} className="next-slide"
-            href="#"
-            onClick={this.props.nextSlide}>
-            {">"}
-          </a>
-        </div>
-      )
-    }
-  }),
-  position: 'CenterLeft',
-  style: {
-    padding: 20
-  }
-}];
-
 var Gallery = React.createClass({
   mixins: [Carousel.ControllerMixin],
   render() {
     return (
       <div key={this.props.title} className="gallery-slider">
         <div className="event-title">{this.props.title}</div>
-        <Carousel slidesToShow={4}>
+        <Carousel slidesToShow={3}>
           {photos}
         </Carousel>
       </div>
