@@ -4,17 +4,19 @@ html {
 }
 
 body {
-	margin: 0 0 11em;
+	margin: 0 0 1em;
 	font-family: $body-font;
+	#wrapper {
+		margin: 0 0 1.5em 0;
+		h2 {
+			font-family: $title-text;
+			font-size: 1.5em;
+		}
 
-	h2 {
-		font-family: $title-text;
-		font-size: 1.5em;
-	}
-
-	p {
-		font-family: $body-font;
-		padding-bottom: 0.5em;
+		p {
+			font-family: $body-font;
+			padding-bottom: 0.5em;
+		}
 	}
 }
 
