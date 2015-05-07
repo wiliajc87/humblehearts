@@ -14,12 +14,12 @@ module.exports = function(grunt) {
           keepAlive: true
         },
         files: {
-          "public/build/javascripts/application.js": "public/src/jsx/application.jsx"
+          "public/build/javascripts/events-carousel.js": "public/src/jsx/events-carousel.jsx"
         }
       },
       prod: {
         files: {
-            "public/build/javascripts/application.js": "public/src/jsx/application.jsx"
+            "public/build/javascripts/events-carousel.js": "public/src/jsx/events-carousel.jsx"
         },
         options: {
           transform: [reactify],
