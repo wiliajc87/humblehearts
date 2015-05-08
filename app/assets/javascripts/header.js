@@ -1,11 +1,13 @@
 $(document).ready(function(){
-	$(window).scroll(function() { 
-		var scroll = $(window).scrollTop();
+	var $window = $(window)
+	var $nav = $("nav")
+	$window.scroll(function() { 
+		var scroll = $window.scrollTop();
 		console.log(scroll);
 		if (scroll >= 500) {
-			$("nav").addClass("scrolling");
+			$nav.addClass("scrolling");
 		} else {
-			$("nav").removeClass("scrolling");
+			$nav.removeClass("scrolling");
 		}
 	});
 });
