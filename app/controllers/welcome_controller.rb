@@ -25,10 +25,11 @@ class WelcomeController < ApplicationController
       @medium = Medium.new
       @event = Event.new
       @community_resource = CommunityResource.new
-      @media = Medium.all
-      @community_resources = CommunityResource.all
-      @events = Event.all
-      @team_members = TeamMember.all
+      q = params[:q]
+      @media    = Medium.ransack(title_cont: q).result
+      @community_resources = CommunityResource.ransack(name_cont: q).result
+      @events = Event.ransack(title_cont: q).result
+      @team_members = TeamMember.ransack(name_cont: q).result
       render "administration"
     else
       redirect_to root_path
