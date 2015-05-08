@@ -15,6 +15,8 @@
 .slider {
 	div {
 		ul {
+			// dots for each slide
+			// hide because they're ugly
 			display: none;
 		}
 		button {
@@ -31,11 +33,10 @@
   	color: $white;
   }
 
-
 .gallery-slider {
 	margin: 10px auto auto;
-	padding:  6px;
-	height: 180px;
+	padding:  10px;
+	height: 280px;
 	width: 800px;
 	font-family: $title-text;
 	background: $red;
@@ -47,15 +48,13 @@
     -ms-user-select: none;
     user-select: none;
 	img.gallery-image {
-		max-height: 140px;
-		max-width: 180px;
+		max-height: 240px;
+		max-width: 240px;
 		height: auto;
 		width: auto;
 		border: 2px solid $light-grey;
 	}
 	div {
-		// position: relative;
-		// width: 100%;
 		text-align: center;
 		div.photos-carousel {
 			.previous-slide, .next-slide {
@@ -64,10 +63,10 @@
 				pointer-events: all;
 			}
 			.previous-slide {
-				// float: left;
+
 			}
 			.next-slide {
-				// float: right;
+
 			}
 		}
 	}
