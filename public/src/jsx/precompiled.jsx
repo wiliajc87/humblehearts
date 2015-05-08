@@ -5,20 +5,19 @@ var React = require('react')
     , key = 0
     , photos = [];
 
-
 var links = {
     "/": "<i class='fa fa-home'></i> Home"
     , "/our-story": "<i class='fa fa-users'></i> Our Story"
     , "/our-services": "<i class='fa fa-bed'></i> Services"
     , "/events": "<i class='fa fa-calendar'></i> Events"
     , "/support-us": "<i class='fa fa-heart'></i> Support Us"
-    , "/community-resources": "<i class='fa fa-book'></i> Community Resources"
+    , "/community_resources": "<i class='fa fa-book'></i> Community Resources"
     , "/media": "<i class='fa fa-newspaper-o'></i> Media"
     , "/contact-us": "<i class='fa fa-comments'></i> Contact Us"
 }
 
 React.render(
-    <NavContainer links={links} position={700} />
+    <NavContainer links={links} position={380} />
     , document.getElementById('navigation-anchor')
 );
 
