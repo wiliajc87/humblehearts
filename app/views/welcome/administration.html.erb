@@ -1,5 +1,12 @@
 <div class="admin_container">
   <p class="admin_headers">Team Members</p>
+    <%= search_form_for @team_search, url: administration_path do |f| %>
+      <div class="field">
+        <%= f.label :name_cont, "Name:" %>
+        <%= f.text_field :name_cont %>
+      </div>
+      <div class="actions"><%= f.submit "Search" %></div>
+    <% end %>
   <p class="admin_subheaders">Add a team member</p>
   <%= render "team_members/form"%>
   <br>
@@ -7,6 +14,15 @@
   <%= render "team_members/update_form"%>
 <hr>
 <p class="admin_headers">Community Resources</p>
+    <%= search_form_for @resource_search, url: administration_path do |f| %>
+      <div class="field">
+        <%= f.label :name_cont, "Name:" %>
+        <%= f.text_field :name_cont %>
+        <%= f.label :category_cont, "Category:" %>
+        <%= f.select :category_cont, options_for_select(["shelter", "community centers", "housing laws", "homeless laws", "pantries", "soup kitchens", "free medical centers", "low income community medical clinics", "mental health and addiction services", "other" ]) %>
+      </div>
+      <div class="actions"><%= f.submit "Search" %></div>
+    <% end %>
  <p class="admin_subheaders">Add a resource</p>
   <%= render "community_resources/form"%>
   <br>
@@ -14,12 +30,28 @@
   <%= render "community_resources/update_form"%>
 <hr>
 <p class="admin_headers">Media</p>
+    <%= search_form_for @media_search, url: administration_path do |f| %>
+      <div class="field">
+        <%= f.label :title_cont, "Title:" %>
+        <%= f.text_field :title_cont %>
+        <%= f.label :category_cont, "Category:" %>
+        <%= f.select :category_cont, options_for_select(["article", "photo", "video"])%>
+      </div>
+      <div class="actions"><%= f.submit "Search" %></div>
+    <% end %>
  <p class="admin_subheaders">Add a medium</p>
   <%= render "media/form"%>
  <p class="admin_subheaders">Edit a medium</p>
   <%= render "media/update_form"%>
 <hr>
 <p class="admin_headers">Events</p>
+    <%= search_form_for @event_search, url: administration_path do |f| %>
+      <div class="field">
+        <%= f.label :title_cont, "Title:" %>
+        <%= f.text_field :title_cont %>
+      </div>
+      <div class="actions"><%= f.submit "Search" %></div>
+    <% end %>
  <p class="admin_subheaders">Add an event</p>
   <%= render "events/form"%>
  <p class="admin_subheaders">Edit an event</p>
