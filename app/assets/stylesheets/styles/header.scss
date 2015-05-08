@@ -18,9 +18,8 @@ header img {
 	text-align: center;
 }
 
-header nav {
-	position: absolute;
-	bottom: 0;
+nav {
+	margin: 0;
 	width: 100%;
 }
 
@@ -34,13 +33,20 @@ nav ul{
 	width: 100%;
 }
 
-nav ul li {
-	margin: 20px;
+li.nav-link {
+	vertical-align: top;
+	margin: 10px;
 	display: inline-block;
-
+	max-width: 180px;
 }
 
+li.nav-link a {
+	text-align: center;
+}
 
+i.fa {
+	display: block;
+}
 
 nav ul li a {
 	text-decoration: none;

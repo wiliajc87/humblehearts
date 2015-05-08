@@ -14,12 +14,12 @@ module.exports = function(grunt) {
           keepAlive: true
         },
         files: {
-          "public/build/javascripts/events-carousel.js": "public/src/jsx/events-carousel.jsx"
+          "public/build/javascripts/precompiled.js": "public/src/jsx/precompiled.jsx"
         }
       },
       prod: {
         files: {
-            "public/build/javascripts/events-carousel.js": "public/src/jsx/events-carousel.jsx"
+            "public/build/javascripts/precompiled.js": "public/src/jsx/precompiled.jsx"
         },
         options: {
           transform: [reactify],
