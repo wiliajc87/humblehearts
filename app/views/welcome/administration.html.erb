@@ -7,6 +7,7 @@
       </div>
       <div class="actions"><%= f.submit "Search" %></div>
     <% end %>
+    <%= link_to "Reset Search", administration_path %>
   <p class="admin_subheaders">Add a team member</p>
   <%= render "team_members/form"%>
   <br>
@@ -23,6 +24,7 @@
       </div>
       <div class="actions"><%= f.submit "Search" %></div>
     <% end %>
+    <%= link_to "Reset Search", administration_path %>
  <p class="admin_subheaders">Add a resource</p>
   <%= render "community_resources/form"%>
   <br>
@@ -39,6 +41,7 @@
       </div>
       <div class="actions"><%= f.submit "Search" %></div>
     <% end %>
+    <%= link_to "Reset Search", administration_path %>
  <p class="admin_subheaders">Add a medium</p>
   <%= render "media/form"%>
  <p class="admin_subheaders">Edit a medium</p>
@@ -52,6 +55,7 @@
       </div>
       <div class="actions"><%= f.submit "Search" %></div>
     <% end %>
+    <%= link_to "Reset Search", administration_path %>
  <p class="admin_subheaders">Add an event</p>
   <%= render "events/form"%>
  <p class="admin_subheaders">Edit an event</p>
