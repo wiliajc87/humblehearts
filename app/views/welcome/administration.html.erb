@@ -28,7 +28,7 @@
             <%= f.label :name_cont, "Name:" %>
             <%= f.text_field :name_cont %>
             <%= f.label :category_cont, "Category:" %>
-            <%= f.select :category_cont, options_for_select(["shelter", "community centers", "housing laws", "homeless laws", "pantries", "soup kitchens", "free medical centers", "low income community medical clinics", "mental health and addiction services", "other" ]) %>
+            <%= f.select :category_cont, options_for_select(["", "shelter", "community centers", "housing laws", "homeless laws", "pantries", "soup kitchens", "free medical centers", "low income community medical clinics", "mental health and addiction services", "other" ]) %>
           </div>
           <div class="actions"><%= f.submit "Search" %></div>
         <% end %>
@@ -46,7 +46,7 @@
             <%= f.label :title_cont, "Title:" %>
             <%= f.text_field :title_cont %>
             <%= f.label :category_cont, "Category:" %>
-            <%= f.select :category_cont, options_for_select(["article", "photo", "video"])%>
+            <%= f.select :category_cont, options_for_select(["", "article", "photo", "video"])%>
           </div>
           <div class="actions"><%= f.submit "Search" %></div>
         <% end %>
