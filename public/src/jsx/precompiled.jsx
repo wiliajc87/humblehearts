@@ -5,19 +5,17 @@ var React = require('react')
     , key = 0
     , photos = [];
 
-var links = {
-    "/": "<i class='fa fa-home'></i> Home"
-    , "/our-story": "<i class='fa fa-users'></i> Our Story"
-    , "/our-services": "<i class='fa fa-bed'></i> Services"
-    , "/events": "<i class='fa fa-calendar'></i> Events"
-    , "/support-us": "<i class='fa fa-heart'></i> Support Us"
-    , "/community_resources": "<i class='fa fa-book'></i> Community Resources"
-    , "/media": "<i class='fa fa-newspaper-o'></i> Media"
-    , "/contact-us": "<i class='fa fa-comments'></i> Contact Us"
-}
-
 React.render(
-    <NavContainer links={links} position={380} />
+    <NavContainer position={400}>
+      <a className="nav-link" href="/"><i className="fa fa-home"></i>Home</a>
+      <a className="nav-link" href="/our-story"><i className="fa fa-users"></i>Our Story</a>
+      <a className="nav-link" href="/our-services"><i className="fa fa-bed"></i>Services</a>
+      <a className="nav-link" href="/events"><i className="fa fa-calendar"></i>Events</a>
+      <a className="nav-link" href="/support-us"><i className="fa fa-heart"></i>Support Us</a>
+      <a className="nav-link" href="/community_resources"><i className="fa fa-book"></i>Get Help</a>
+      <a className="nav-link" href="/media"><i className="fa fa-newspaper-o"></i>Media</a>
+      <a className="nav-link" href="/contact-us"><i className="fa fa-comments"></i>Contact Us</a>
+    </NavContainer>
     , document.getElementById('navigation-anchor')
 );
 
