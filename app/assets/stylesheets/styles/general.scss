@@ -1,5 +1,4 @@
 html {
-
 	min-height: 100%;
 }
 
@@ -7,7 +6,9 @@ body {
 	margin: 0 0 1em;
 	font-family: $body-font;
 	#wrapper {
-		margin: 0 0 1.5em 0;
+		// margin: 0 0 1.5em 0;
+	padding-bottom: 12em;
+
 		h2 {
 			font-family: $title-text;
 			font-size: 1.5em;
@@ -20,27 +21,6 @@ body {
 	}
 }
 
-.row {
-	display: flex;
-	flex-direction: row;
-	align-items: stretch;
-	width: 100%;
-}
-
-.two-thirds-message {
-	background-color: $white;
-	flex-grow: 2;
-}
-
-.one-third-image {
-	flex-grow: 1;
-}
-
-.center-message {
-	text-align: center;
-	background-color: $white;
-	flex-grow: 1;
-}
 
 .content-body {
 	height: 600px;

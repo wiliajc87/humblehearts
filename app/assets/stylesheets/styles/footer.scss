@@ -1,39 +1,39 @@
 footer {
-	width: 100%;
 	font-family: $body-font;
 	background-color: $light-grey;
 	color: $dark-grey;
-	padding: 1em 2em 1em 2em;
-	position: absolute;
-	border-bottom: 20px solid $light-grey;
-	height: 8em;
+
+	clear: both;
+	position: relative;
+	height: 12em;
+	margin-top: -12em;
 
 
-		a {
-			color: $dark-grey;
-			text-decoration: none;
+	a {
+		color: $dark-grey;
+		text-decoration: none;
 
-			&:hover {
-				color: $red;
-			}
+		&:hover {
+			color: $dark-red;
+		}
+	}
+
+	.sitemap {
+	  float: left;
+
+		p {
+			text-align: left;
+			font-style: bold;
+			color: black;
 		}
 
-		.sitemap {
-		  float: left;
-
-			p {
-				text-align: left;
-				font-style: bold;
-				color: black;
-			}
-
-			ul {
-				columns: 2;
-			  -webkit-columns: 2;
-			  -moz-columns: 2;
-			  width: 25em;
-			}
+		ul {
+			columns: 2;
+		  -webkit-columns: 2;
+		  -moz-columns: 2;
+		  width: 25em;
 		}
+	}
 
 	.right-info {
 		float: right;
