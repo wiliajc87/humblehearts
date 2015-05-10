@@ -1,7 +1,6 @@
 <div class="story-content">
 	<h1>Our Story<h1>
 
-	<div class="content-section mission-statement">
 		<h2>Mission Statement</h2>
 		<p>
 			Our Mission is to help one person at a time so that each individual gets the Respect, Attention, and Focus they need to walk away with dignity !!!
@@ -9,9 +8,9 @@
 		<p>
 			We help those in need Man, Woman, and Child to receive things they cannot get on their own.
 		</p>
-	</div>
 
-	<div class="content-section founder-message">
+
+
 		<h2>Message from our founder</h2>
 
 		<p>​​
@@ -40,22 +39,17 @@
 		</p>
 	</div>
 
-	<div class="content-section team-members">
+
 		<h2>Meet The Team</h2>
 		<% @team_members.each do |team_member| %>
-			<div class="team-member">
-				<div class="member-pic">
+
 					<%= image_tag(team_member.photo_url)%>
-				</div>
-				<div class="member-bio">
+
 					<h3><%= team_member.name %> | <%= team_member.title %></h3>
 					<p><%= team_member.bio %></p>
-				</div>
-			</div>
-		<% end %>
-	</div>
 
-	<div>
+		<% end %>
+
 	<a href="https://www.facebook.com/pages/Humble-Hearts-Organization/477172595731068" target="_blank">
 		<h2>Visit Us On Facebook</h2>
 	</a>
