@@ -28,7 +28,6 @@
   },
   "dependencies": {
     "nuka-carousel": "0.0.9",
-    "react": "^0.13.2",
-    "react-nav": "^1.0.0"
+    "react": "^0.13.2"
   }
 }
