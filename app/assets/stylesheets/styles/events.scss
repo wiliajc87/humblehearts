@@ -1,5 +1,25 @@
-.events {
+#events {
+	ul {
+		list-style-type: none;
+	}
 
+	.event-list {
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-top: 1em;
+	}
+
+	.past-events {
+		text-align: center;
+		font-size: 2em;
+		a {
+			color: $black;
+		}
+
+		a:hover {
+			color: $dark-red;
+		}
+	}
 }
 
 .slider {
@@ -20,7 +40,7 @@
 
 .event-title {
 	margin: 4px;
-  	color: $white;
+  color: $black;
   }
 
 .gallery-slider {
@@ -28,7 +48,7 @@
 	padding:  10px;
 	height: 280px;
 	width: 800px;
-	font-family: $title-text;
+	font-family: $body-font;
 	background: $light-grey;
 	text-align: center;
 	-webkit-touch-callout: none;
