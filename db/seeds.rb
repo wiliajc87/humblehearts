@@ -1,5 +1,7 @@
 require 'csv'
+#init user
 
+User.create(email: "carol@carol.com", password: "hello12345")
 #event seeds
 
 Event.create(title: "Annual Holiday Christmas Party", frequency: "Annually", description: "Wraping gifts and showing love to the homeless by filling shoe boxes with all kinds of treats such as socks, hygiene products, snacks, gloves, scarves and other miscellaneous items to pass out during the holiday" , album_link: "", date_of_event: "January 1, 2015".to_date)
