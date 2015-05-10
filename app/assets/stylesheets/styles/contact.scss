@@ -1,19 +1,8 @@
 .contact {
-	padding-top: 4em;
-	min-height: 55em;
-	padding-left: 2em;
-	padding-right: 2em;
+	padding-top: 1em;
 
-	.form {
-		float: left;
-		width: 50em;
+	h2 {
+		font-family: $title-text;
 	}
 
-	.address {
-		float: right;
-		h3 {
-			font-family: $title-text;
-			font-size: 1.5em;
-		}
-	}
 }
