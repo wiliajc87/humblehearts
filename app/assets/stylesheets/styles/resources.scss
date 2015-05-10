@@ -1,13 +1,8 @@
-.service-list {
-	width: 70%;
-	margin-left: auto;
-	margin-right: auto;
-
-	li {
-		font-family: $body-font;
-	}
-}
-
 .resources {
 	padding-top: 1em;
+
+	ul {
+		list-style-type: none;
+	}
+
 }
