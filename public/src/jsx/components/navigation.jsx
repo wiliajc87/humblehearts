@@ -28,11 +28,6 @@ var NavContainer = React.createClass({
 		}
 		return (
 			<div key={key++} ref="nav">
-				<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-					<input type="hidden" name="cmd" value="_s-xclick" />
-					<input type="hidden" name="hosted_button_id" value="T3RFM3GSNMMJG" />
-					<input id="donate" type="submit" border="0" value="Donate" name="donate" alt="PayPal - The safer, easier way to pay online!" />
-				</form>
 				<nav className={navClass}>
 					{this.props.children}
 				</nav>
