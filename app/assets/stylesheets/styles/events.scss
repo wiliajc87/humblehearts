@@ -1,15 +1,5 @@
 .events {
-	margin-top: 4em;
-	padding-left: 5em;
-	padding-right: 5em;
 
-	h3 {
-		font-family: $title-text;
-	}
-
-	h2 {
-		text-align: center;
-	}
 }
 
 .slider {
@@ -39,7 +29,7 @@
 	height: 280px;
 	width: 800px;
 	font-family: $title-text;
-	background: $red;
+	background: $light-grey;
 	text-align: center;
 	-webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -47,6 +37,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+
 	img.gallery-image {
 		max-height: 240px;
 		max-width: 240px;
@@ -54,17 +45,22 @@
 		width: auto;
 		border: 2px solid $light-grey;
 	}
+
 	div {
 		text-align: center;
+
 		div.photos-carousel {
+
 			.previous-slide, .next-slide {
 				font-size: 44px;
 				text-decoration: none;
 				pointer-events: all;
 			}
+
 			.previous-slide {
 
 			}
+
 			.next-slide {
 
 			}
