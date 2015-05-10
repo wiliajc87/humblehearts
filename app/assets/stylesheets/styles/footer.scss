@@ -3,10 +3,20 @@ footer {
 	background-color: $light-grey;
 	color: $dark-grey;
 
-	clear: both;
 	position: relative;
-	height: 12em;
-	margin-top: -12em;
+	margin-top: -9em;
+	height: 9em;
+	clear: both;
+
+	text-align: left;
+
+	.spacer {
+		height: 1em;
+	}
+
+	ul {
+		list-style-type: none;
+	}
 
 
 	a {
@@ -18,28 +28,6 @@ footer {
 		}
 	}
 
-	.sitemap {
-	  float: left;
-
-		p {
-			text-align: left;
-			font-style: bold;
-			color: black;
-		}
-
-		ul {
-			columns: 2;
-		  -webkit-columns: 2;
-		  -moz-columns: 2;
-		  width: 25em;
-		}
-	}
-
-	.right-info {
-		float: right;
-		position: relative;
-		right: 4em;
-	}
 
 	p {
 		text-align: right;

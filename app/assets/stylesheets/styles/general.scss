@@ -1,13 +1,17 @@
-html {
-	min-height: 100%;
+html, body {
+	height: 100%;
 }
 
 body {
-	margin: 0 0 1em;
-	font-family: $body-font;
+	.wrap-header-body {
+		min-height: 100%;
+	}
+
 	#wrapper {
-		// margin: 0 0 1.5em 0;
-	padding-bottom: 12em;
+		overflow: auto;
+		padding-bottom: 9em;
+
+		font-family: $body-font;
 
 		h2 {
 			font-family: $title-text;
