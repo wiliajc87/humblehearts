@@ -1,4 +1,4 @@
-<div class="events">
+<div id="events">
 	<% @events.each do |event| %>
 				<h3><%= event.title %></h3>
 				<p>
@@ -15,6 +15,4 @@
 	<% albums.each do |album| %>
 		<div id=<%= "gallery-anchor-#{album[0]['id']}" %>></div>
 	<% end %>
-
-	<script src='/build/javascripts/events-carousel.js'></script>
 </div>
