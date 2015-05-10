@@ -18,8 +18,7 @@ var NavContainer = React.createClass({
   },
 	shouldComponentUpdate: function() {
 		return window.pageYOffset != this.props.position
-	}
-	, render: function() {
+	}, render: function() {
 		var navClass = 'navigation'
 		if (window.pageYOffset > this.props.position) {
 			navClass = 'navigation-fixed'
