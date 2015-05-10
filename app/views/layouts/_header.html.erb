@@ -5,7 +5,13 @@
 		<input id="donate" type="submit" border="0" value="Donate" name="donate" alt="PayPal - The safer, easier way to pay online!" />
 	</form>
 	<div id="navigation-anchor"></div>
-	<div class="centered">
-		<%= image_tag("Master Logo.png") %>
-	</div>
+	<% if request.env['PATH_INFO'] == '/' %>
+		<div class="centered">
+			<%= image_tag("Master Logo.png") %>
+		</div>
+	<% else %>
+		<div class="centered">
+			<%= image_tag("Master Logo.png") %>
+		</div>
+	<% end %>
 </header>
