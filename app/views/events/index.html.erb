@@ -1,0 +1,18 @@
+<div id="events">
+	<% @events.each do |event| %>
+				<h3><%= event.title %></h3>
+				<p>
+					<%= event.description %>
+				</p>
+	<% end %>
+
+	<h2>
+		<a href="https://www.flickr.com/photos/132225561@N08/" target="blank_">
+		Past Events
+		</a>
+	</h2>
+	
+	<% albums.each do |album| %>
+		<div id=<%= "gallery-anchor-#{album[0]['id']}" %>></div>
+	<% end %>
+</div>
