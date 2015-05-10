@@ -1,45 +1,39 @@
 footer {
-	width: 100%;
 	font-family: $body-font;
 	background-color: $light-grey;
 	color: $dark-grey;
-	padding: 1em 2em 1em 2em;
-	position: absolute;
-	border-bottom: 20px solid $light-grey;
-	height: 8em;
 
+	position: relative;
+	margin-top: -9em;
+	height: 9em;
+	clear: both;
 
-		a {
-			color: $dark-grey;
-			text-decoration: none;
+	text-align: left;
 
-			&:hover {
-				color: $red;
-			}
+	.phone-size-info {
+		p {
+			text-align: center;
 		}
-
-		.sitemap {
-		  float: left;
-
-			p {
-				text-align: left;
-				font-style: bold;
-				color: black;
-			}
-
-			ul {
-				columns: 2;
-			  -webkit-columns: 2;
-			  -moz-columns: 2;
-			  width: 25em;
-			}
-		}
-
-	.right-info {
-		float: right;
-		position: relative;
-		right: 4em;
 	}
+
+	.spacer {
+		height: 1em;
+	}
+
+	ul {
+		list-style-type: none;
+	}
+
+
+	a {
+		color: $dark-grey;
+		text-decoration: none;
+
+		&:hover {
+			color: $dark-red;
+		}
+	}
+
 
 	p {
 		text-align: right;

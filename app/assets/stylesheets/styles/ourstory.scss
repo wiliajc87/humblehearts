@@ -1,19 +1,38 @@
 .story-content {
-    padding: 2em;
 
-    h1 {
-        margin-bottom: 1em;
-    }
+  .member-card {
+    background-color: $light-grey;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 2em;
+    margin-bottom: 2em;
+  }
 
-    h2 {
-        margin-bottom: .5em;
-    }
+  .mission-statement {
+    background-color: $light-grey;
+    width: 100%;
+    margin-bottom: 3em;
+  }
 
-    .content-section {
-        margin-bottom: 1em;
-    }
 
-    .team-member {
-        margin-bottom: 2em;
-    }
+  h2 {
+    text-align: center;
+    font-size: 3em !important;
+  }
+
+  .make-small-img {
+    max-height: 200px;
+  }
+
+  h3 {
+    text-align: left;
+    font-family: $title-text;
+  }
+
+  h2.name {
+    text-align: left;
+    font-size: 3em !important ;
+  }
+
 }

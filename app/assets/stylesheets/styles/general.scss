@@ -1,13 +1,27 @@
-html {
-
-	min-height: 100%;
+html, body {
+	height: 100%;
 }
 
 body {
-	margin: 0 0 1em;
-	font-family: $body-font;
+	.wrap-header-body {
+		min-height: 100%;
+	}
+
+
 	#wrapper {
-		margin: 0 0 1.5em 0;
+		overflow: auto;
+		padding-bottom: 9em;
+
+		font-family: $body-font;
+
+		a {
+			color: $dark-red;
+		}
+
+		a:hover {
+			color: $red;
+		}
+
 		h2 {
 			font-family: $title-text;
 			font-size: 1.5em;
@@ -20,27 +34,6 @@ body {
 	}
 }
 
-.row {
-	display: flex;
-	flex-direction: row;
-	align-items: stretch;
-	width: 100%;
-}
-
-.two-thirds-message {
-	background-color: $white;
-	flex-grow: 2;
-}
-
-.one-third-image {
-	flex-grow: 1;
-}
-
-.center-message {
-	text-align: center;
-	background-color: $white;
-	flex-grow: 1;
-}
 
 .content-body {
 	height: 600px;
