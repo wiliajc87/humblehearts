@@ -1,0 +1,79 @@
+html {
+
+	min-height: 100%;
+}
+
+body {
+	margin: 0 0 1em;
+	font-family: $body-font;
+	#wrapper {
+		margin: 0 0 1.5em 0;
+		h2 {
+			font-family: $title-text;
+			font-size: 1.5em;
+		}
+
+		p {
+			font-family: $body-font;
+			padding-bottom: 0.5em;
+		}
+	}
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	width: 100%;
+}
+
+.two-thirds-message {
+	background-color: $white;
+	flex-grow: 2;
+}
+
+.one-third-image {
+	flex-grow: 1;
+}
+
+.center-message {
+	text-align: center;
+	background-color: $white;
+	flex-grow: 1;
+}
+
+.content-body {
+	height: 600px;
+	text-align: center;
+
+	.welcome-message {
+	  display: inline-block;
+	  width: 50%;
+	  margin-top: 3em;
+	  margin-right: 1em;
+		text-align: left;
+	  vertical-align: top;
+
+		.welcome-heading {
+			font-size: 1.5em;
+		}
+
+		p {
+			margin-top: 1em;
+		}
+
+		ul {
+		  margin-left: 2em;
+		  margin-top: 1em;
+
+		  li {
+		  	margin-top: 1em;
+		  }
+		}
+	}
+
+	.facebook-feed {
+		display: inline-block;
+		width: 500px;
+	}
+}

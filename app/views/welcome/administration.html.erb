@@ -1,0 +1,75 @@
+<div class="container">
+<ul id="tabs">
+    <li class="active">Team Members</li>
+    <li>Community Resources</li>
+    <li>Media</li>
+    <li>Events</li>
+</ul>
+<ul id="tab">
+    <li class="active">
+        <%= search_form_for @team_search, url: administration_path do |f| %>
+          <div class="field">
+            <%= f.label :name_cont, "Name:" %>
+            <%= f.text_field :name_cont %>
+          </div>
+          <div class="actions"><%= f.submit "Search" %></div>
+        <% end %>
+        <%= link_to "Reset Search", administration_path %>
+        <p class="admin_subheaders">Add a team member</p>
+        <%= render "team_members/form"%>
+        <br>
+        <p class="admin_subheaders">Edit a team member's info</p>
+        <%= render "team_members/update_form"%>
+        <hr>
+    </li>
+    <li>
+        <%= search_form_for @resource_search, url: administration_path do |f| %>
+          <div class="field">
+            <%= f.label :name_cont, "Name:" %>
+            <%= f.text_field :name_cont %>
+            <%= f.label :category_cont, "Category:" %>
+            <%= f.select :category_cont, options_for_select(["shelter", "community centers", "housing laws", "homeless laws", "pantries", "soup kitchens", "free medical centers", "low income community medical clinics", "mental health and addiction services", "other" ]) %>
+          </div>
+          <div class="actions"><%= f.submit "Search" %></div>
+        <% end %>
+        <%= link_to "Reset Search", administration_path %>
+        <p class="admin_subheaders">Add a resource</p>
+        <%= render "community_resources/form"%>
+        <br>
+        <p class="admin_subheaders">Edit a resource</p>
+        <%= render "community_resources/update_form"%>
+        <hr>
+    </li>
+    <li>
+        <%= search_form_for @media_search, url: administration_path do |f| %>
+          <div class="field">
+            <%= f.label :title_cont, "Title:" %>
+            <%= f.text_field :title_cont %>
+            <%= f.label :category_cont, "Category:" %>
+            <%= f.select :category_cont, options_for_select(["article", "photo", "video"])%>
+          </div>
+          <div class="actions"><%= f.submit "Search" %></div>
+        <% end %>
+        <%= link_to "Reset Search", administration_path %>
+        <p class="admin_subheaders">Add a medium</p>
+        <%= render "media/form"%>
+        <p class="admin_subheaders">Edit a medium</p>
+        <%= render "media/update_form"%>
+        <hr>
+    </li>
+    <li>
+        <%= search_form_for @event_search, url: administration_path do |f| %>
+          <div class="field">
+            <%= f.label :title_cont, "Title:" %>
+            <%= f.text_field :title_cont %>
+          </div>
+          <div class="actions"><%= f.submit "Search" %></div>
+        <% end %>
+        <%= link_to "Reset Search", administration_path %>
+        <p class="admin_subheaders">Add an event</p>
+        <%= render "events/form"%>
+        <p class="admin_subheaders">Edit an event</p>
+        <%= render "events/update_form"%>
+    </li>
+    </ul>
+</div>

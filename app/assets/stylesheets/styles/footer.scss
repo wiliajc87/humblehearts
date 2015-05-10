@@ -1,0 +1,48 @@
+footer {
+	width: 100%;
+	font-family: $body-font;
+	background-color: $light-grey;
+	color: $dark-grey;
+	padding: 1em 2em 1em 2em;
+	position: absolute;
+	border-bottom: 20px solid $light-grey;
+	height: 8em;
+
+
+		a {
+			color: $dark-grey;
+			text-decoration: none;
+
+			&:hover {
+				color: $red;
+			}
+		}
+
+		.sitemap {
+		  float: left;
+
+			p {
+				text-align: left;
+				font-style: bold;
+				color: black;
+			}
+
+			ul {
+				columns: 2;
+			  -webkit-columns: 2;
+			  -moz-columns: 2;
+			  width: 25em;
+			}
+		}
+
+	.right-info {
+		float: right;
+		position: relative;
+		right: 4em;
+	}
+
+	p {
+		text-align: right;
+	}
+
+}
