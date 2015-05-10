@@ -7,11 +7,20 @@ body {
 		min-height: 100%;
 	}
 
+
 	#wrapper {
 		overflow: auto;
 		padding-bottom: 9em;
 
 		font-family: $body-font;
+
+		a {
+			color: $dark-red;
+		}
+
+		a:hover {
+			color: $red;
+		}
 
 		h2 {
 			font-family: $title-text;
