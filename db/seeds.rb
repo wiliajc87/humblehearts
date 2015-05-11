@@ -1,6 +1,5 @@
 require 'csv'
 
-User.create(email: "carol@carol.com", password: "hello12345")
 
 #event seeds
 
