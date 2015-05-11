@@ -10,16 +10,38 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 
-  img {
-		width: 300px;
-		margin: 30px 0px;
-  }
 
 	.centered {
 		z-index: 500;
 		width: 300px;
 		margin: 0 auto auto;
 		text-align: center;
+	
+	  img {
+			width: 300px;
+			margin: 30px 0px;
+	  }
+	}
+
+	.top-left {
+		z-index: 500;
+
+		img {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 150px;
+		}
+
+	}
+
+	.title-text {
+		font-size: 6em;
+		font-family: $title-text;
+		color: $white;
+		text-align: center;
+		padding-top: 0.7em;
+		margin-bottom: 1em;
 	}
 
 	input#donate {
@@ -37,17 +59,14 @@ header {
 		box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 1px;
 		outline: none;
 		text-transform: uppercase;
-		transition: all .75s;
 
 		&:hover {
-			color: $dark-red;
+			color: $white;
 			cursor: pointer;
-			box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 8px;
 		}
 
 		&:active {
 			color: $dark-grey;
-			box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 1px;
 		}
 
 	}
