@@ -10,7 +10,29 @@
 			<%= image_tag("minimalLogo.png") %>
 		</div>
 		<div class="title-text">
-			BUTTS
+			<% if request.env['PATH_INFO'] == '/our-story' %>
+				Our Story
+			<% elsif request.env['PATH_INFO'] == '/our-services' %>
+				Our Services
+			<% elsif request.env['PATH_INFO'] == '/events' %>
+				Our Events
+			<% elsif request.env['PATH_INFO'] == '/support-us' %>
+				Support Us
+			<% elsif request.env['PATH_INFO'] == '/community_resources' %>
+				Community Resources
+			<% elsif request.env['PATH_INFO'] == '/media' %>
+				Media
+			<% elsif request.env['PATH_INFO'] == '/contact-us' %>
+				Contact Us
+			<% else %>
+				Humble Hearts
+			<% end %>
+
+
+
+
+
+
 		</div>
 	<% end %>
 
