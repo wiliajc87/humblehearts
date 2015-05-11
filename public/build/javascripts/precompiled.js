@@ -27938,7 +27938,7 @@ React.render(
       React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/our-services"}, React.createElement("i", {className: "fa fa-bed"}), "Our Services")), 
       React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/events"}, React.createElement("i", {className: "fa fa-calendar"}), "Our Events")), 
       React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/support-us"}, React.createElement("i", {className: "fa fa-heart"}), "Support Us")), 
-      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/community_resources"}, React.createElement("i", {className: "fa fa-book"}), "Community Resources")), 
+      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/community_resources"}, React.createElement("i", {className: "fa fa-book"}), "Resources")), 
       React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/media"}, React.createElement("i", {className: "fa fa-newspaper-o"}), "Media")), 
       React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/contact-us"}, React.createElement("i", {className: "fa fa-comments"}), "Contact Us"))
     )
