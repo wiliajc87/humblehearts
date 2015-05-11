@@ -1,58 +1,56 @@
 category,Name,Website,Phone,Address,Description
-Shelters,Deborahs Place,https://www.deborahsplace.org,(312)-944-8810,1532 North Sedewick,Woman & child shelter - Temp Housing
-Shelters,CornerStone Community Out Reach,https://www.ccolife.org/our-programs,(773)- 271-8163,4628 N.Clifton,Woman & child shelter - Temp Housing
-Shelters,Franciscan Outreach Association ,https://www.franoutreach.org,(773) 278-6724,1645 W. LeMoyne Street ,Woman & child shelter - Temp Housing
-Shelters,Interfaith House ,https://www.interfaithhouse.org,(773) 533-6013,3456 W. Franklin Blvd,Woman & child shelter - Temp Housing
-Shelters,Joshua House,https://www.breakthroughministries.com,(773)722-0179,,Woman shelter only
-Shelters,A Safe Haven,https://www.asafehaven.org,773-435-8300,2750 West Roosevelt Road,Woman & child shelter - Temp Housing
-Shelters,Primo Center For Women And Children,https://www.primocenter.org,(773) 722-0544,4241 West Washington Boulevard ,Woman & child shelter - Temp Housing
-Shelters,La Posada Family Shelter - Casa Central ,https://www.casacentral.org,(773) 782-8820,3209 W. Evergreen,Woman & child shelter
-Shelters,Jireh House,https://www.corinthianfellowship.org,773-498-4964,"3122 W 59th St, Ste 2",men daytime location for single men to receive case management
-Shelters,Franciscan Outreach Association,https://www.franoutreach.org,(773) 278-6724,1645 W. LeMoyne Street ,Mens Shelter
-Shelters,The Night Ministry,https://www.thenightministry.org,(773) 784-9000,4711 N. Ravenswood Ave. ,Mens Shelter
-Shelters,Northside Housing and Supportive Services,https://www.lakeviewshelter.org,(773) 327-1389,835 W Addison,Mens Shelter
-Shelters,San Jose Obrero Mission Shelter,https://www.sjom.org,(312)243-4347,1856 S. Loomis,Mens Shelter
-Shelters,Pacific Mission Garden,https://www.pgm.org,(312)492-9410 ,1458 S. Canal St,Mens Shelter
-Shelters,Night Ministry Open Door Shelter,https://www.thenightministry.org,(773)506-4100,1110 N. Noble Street,Youth Housing
-Shelters,Mercy Home for Boys & Girls,https://www.mercyhome.org,(312)738-7560,1140 W. Jackson Blvd,Youth Housing
-Shelters,Heartland Alliance,https://www.heartlandalliance.org,(773)433-1200,4822 N. Broadway,Youth Housing
-Shelters,La Casa Norte,https://www.lacasanorte.org,(773)276-4900,3507 W. North Ave ,Young Men Shelter
-Shelters,Teen Living Program Beldford House,https://www.tlpchicago.org,(773) 548-4443,3745 S. Indiana Avenue,Youth Housing
-Shelters,El Rescate  ,https://www.elrescatechicago.org,(872) 829-2494,2739 W. Divsion,Youth Housing
-Shelters,La Casa Norte,https://www.lacasanorte.org,(773)276-4900,3507 W. North Ave ,Young Men Shelter
-Shelters,Teen Living Program Beldford House,https://www.tlpchicago.org,(773) 548-4443,3745 S. Indiana Avenue,Youth Housing
-Shelters,El Rescate  ,https://www.elrescatechicago.org,(872) 829-2494,2739 W. Divsion,Youth Housing
+Shelters,Deborahs Place,https://www.deborahsplace.org,(312) 944-8810,"1532 N Sedgwick St, Chicago, IL 60610",Woman & child shelter - Temp Housing
+Shelters,CornerStone Community Out Reach,https://www.ccolife.org/our-programs,(773) 271-8163,"4628 N Clifton Ave, Chicago, IL 60640",Woman & child shelter - Temp Housing
+Shelters,Franciscan Outreach Association ,https://www.franoutreach.org,(773) 278-6724,"1645 W Le Moyne St, Chicago, IL 60622",Woman & child shelter - Temp Housing
+Shelters,Interfaith House ,https://www.interfaithhouse.org,(773) 533-6013,"3456 W Franklin Blvd, Chicago, IL 60624",Woman & child shelter - Temp Housing
+Shelters,Joshua House,https://www.breakthroughministries.com,(773) 722-0179,,Woman shelter only
+Shelters,A Safe Haven,https://www.asafehaven.org,(773) 435-8300,"2750 W Roosevelt Rd, Chicago, IL 60608",Woman & child shelter - Temp Housing
+Shelters,Primo Center For Women And Children,https://www.primocenter.org,(773) 722-0544,"4241 W Washington Blvd, Chicago, IL 60624",Woman & child shelter - Temp Housing
+Shelters,La Posada Family Shelter - Casa Central ,https://www.casacentral.org,(773) 782-8820,"3209 W Evergreen Ave, Chicago, IL 60651",Woman & child shelter
+Shelters,Jireh House,https://www.corinthianfellowship.org,(773) 498-4964,"3122 W 59th St #2, Chicago, IL 60629",men daytime location for single men to receive case management
+Shelters,Franciscan Outreach Association,https://www.franoutreach.org,(773) 278-6724,"1645 W Le Moyne St, Chicago, IL 60622",Mens Shelter
+Shelters,The Night Ministry,https://www.thenightministry.org,(773) 784-9000,"4711 N Ravenswood Ave, Chicago, IL 60640",Mens Shelter
+Shelters,Northside Housing and Supportive Services,https://www.lakeviewshelter.org,(773) 327-1389,"835 W Addison St, Chicago, IL 60613",Mens Shelter
+Shelters,San Jose Obrero Mission Shelter,https://www.sjom.org,(312) 243-4347,"1856 S Loomis St, Chicago, IL 60608",Mens Shelter
+Shelters,Pacific Mission Garden,https://www.pgm.org,(312) 492-9410,"1458 S Canal St Chicago, IL 60607",Mens Shelter
+Shelters,Night Ministry Open Door Shelter,https://www.thenightministry.org,(773) 506-4100,"1110 N Noble St Chicago, IL 60642",Youth Housing
+Shelters,Mercy Home for Boys & Girls,https://www.mercyhome.org,(312) 738-7560,"1140 W Jackson Blvd Chicago, IL 60607",Youth Housing
+Shelters,Heartland Alliance,https://www.heartlandalliance.org,(773) 433-1200,"4822 N Broadway Chicago, IL 60640",Youth Housing
+Shelters,La Casa Norte,https://www.lacasanorte.org,(773) 276-4900,"3507 W North Ave Chicago, IL 60647",Young Men Shelter
+Shelters,Teen Living Program Beldford House,https://www.tlpchicago.org,(773) 548-4443,"3745 S Indiana Ave Chicago, IL 60653",Youth Housing
+Shelters,El Rescate  ,https://www.elrescatechicago.org,(872) 829-2494,"2739 W Division St Chicago, IL 60622",Youth Housing
+Shelters,La Casa Norte,https://www.lacasanorte.org,(773) 276-4900,"3507 W North Ave Chicago, IL 60647",Young Men Shelter
+Shelters,Teen Living Program Beldford House,https://www.tlpchicago.org,(773) 548-4443,"3745 S Indiana Ave Chicago, IL 60653",Youth Housing
+Shelters,El Rescate  ,https://www.elrescatechicago.org,(872) 829-2494,"2739 W Division St Chicago, IL 60622",Youth Housing
 Community Centers,Inner Voice,innervoicechicago.org,(312) 666-8110,,
-Community Centers,The Lincoln Park Community,lpcsonline.org,(773) 549-6111,600 West Fullerton parkway,
-Community Centers,Englewood Center,https://www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,1140 W. 79th Street,
-Community Centers,Garfield Park Center,https://www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,10 South Kedzie,
-Community Centers,King Center,https://www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,4314 S. Cottage Grove,
-Community Centers,North Area Center,https://www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,845 W. Wilson Ave.,
-Community Centers,South Chicago Center,https://www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,8650 S. Commercial Ave,
-Community Centers,Trina Davila ,https://www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,4357 W. Armitage Ave,
-Community Centers,Lift Chicago,,,4554 N. Broadway,
-Community Centers,Heartland Alliance,https://www.heartlandalliance.org,(773)433-1200,4822 N. Broadway,
-Housing Laws,Tennants Rights,https://www.tenant.org,(773)478-1133,Appointment need,
-Housing Laws,Access Living,https://www.accessliving.org,(312)253-7000,115 W. Chicago Ave,legal assistance,
-Housing Laws,Tennants Rights,https://www.tenant.org,(773)478-1133,Appointment need,
-Housing Laws,Access Living,https://www.accessliving.org,(312)253-7000,115 W. Chicago Ave,legal assistance,
-Housing Laws,Arnold E. Toole,https://www.toolelaw.com,(773)684-5730,1525 East 53rd Street,
-Housing Laws,Asain Human Services,https://www.ahschicago.org,(773)293-8482 ,4753 N. Broadway,
-Housing Laws,Center for Conflict Resolution,https://www.ccrchicago.org,(312)922-6464,"11 E. Adams, Suite 500 ",
-Housing Laws,Chicago Legal Clinic,https://www.clclaw.org,(773)854-1610 ,118 North Central ,
-Housing Laws,Circuit Court of Cook County Mortgage Foreclosure Mediation Program.,https://www.cookcountyforeclosurehelp.org,(877)895-2444,Appointment need,
-Housing Laws,Keep Your Home Illinois ,https://www.keepyourhomeilliois.org,(855)873-7405,6636 N. Clark Street,
-Housing Laws,John Marshall’s Fair Housing Legal Support,https://www.jmls.edu/fairhousing/center,(312)786-2267,55 E. Jackson Ave,
-Housing Laws,LAF,https://www.lafchicago.org/,(773)769-1411 ,4413 Sheridan,
-Housing Laws,Uptown People's Law Center  ,https://www.uplcchicago.org,(773)769-1410,4413 N Sheridan Rd,
-Homeless Laws,Homeless Coalition for the Homeless,,(800)940-1119,,
-Homeless Laws,ERZA Hotline ,,(800)248-1818,,
-Homeless Laws,Family Rescue,,(773)375-8400,,
-Homeless Laws,Homeless Coalition for the Homeless,,(800)940-1119,,
-Homeless Laws,ERZA Hotline ,,(800)248-1818,,
-Homeless Laws,Family Rescue,,(773)375-8400,,
-Homeless Laws,Legal Assistance Foundation of Metropolitan Chicago,,(312)341-1070,,
-Food Pantries,Greater Food Depository,https://www.chicagosfoodbank.org,(773)247-3663,,
+Community Centers,The Lincoln Park Community,lpcsonline.org,(773) 549-6111,"600 W Fullerton Pkwy Chicago, IL 60614",
+Community Centers,Englewood Center,https://www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,"1140 W 79th St Chicago, IL 60620",
+Community Centers,Garfield Park Center,https://www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,"10 S Kedzie Ave Chicago, IL 60612",
+Community Centers,King Center,https://www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,"4314 S Cottage Grove Ave Chicago, IL 60653",
+Community Centers,North Area Center,https://www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,"845 W Wilson Ave Chicago, IL 60640",
+Community Centers,South Chicago Center,https://www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,"8650 S Commercial Ave Chicago, IL 60617",
+Community Centers,Trina Davila ,https://www.cityofchicago.org/city/en/depts/fss/provdrs/serv/svcs/community_servicecenterlocations.html,311,"4357 W Armitage Ave Chicago, IL 60639",
+Community Centers,Lift Chicago,,,"4554 N Broadway Chicago, IL 60640",
+Community Centers,Heartland Alliance,https://www.heartlandalliance.org,(773) 433-1200,"4822 N Broadway Chicago, IL 60640",
+Housing Laws,Tennants Rights,https://www.tenant.org,(773) 478-1133,Appointment need,
+Housing Laws,Access Living,https://www.accessliving.org,(312) 253-7000,"115 W Chicago Ave Chicago, IL 60602",legal assistance,
+Housing Laws,Arnold E. Toole,https://www.toolelaw.com,(773) 684-5730,"1525 E 53rd St Chicago, IL 60615",
+Housing Laws,Asain Human Services,https://www.ahschicago.org,(773) 293-8482,"4753 N Broadway Chicago, IL 60640",
+Housing Laws,Center for Conflict Resolution,https://www.ccrchicago.org,(312) 922-6464,"11 E Adams St #500 Chicago, IL 60603",
+Housing Laws,Chicago Legal Clinic,https://www.clclaw.org,(773) 854-1610,"118 N Central Ave Chicago, IL 60644",
+Housing Laws,Circuit Court of Cook County Mortgage Foreclosure Mediation Program.,https://www.cookcountyforeclosurehelp.org,(877) 895-2444,Appointment need,
+Housing Laws,Keep Your Home Illinois ,https://www.keepyourhomeilliois.org,(855) 873-7405,6636 N Clark St Chicago, IL 60626,
+Housing Laws,John Marshall’s Fair Housing Legal Support,https://www.jmls.edu/fairhousing/center,(312) 786-2267,"55 E Jackson Blvd Chicago, IL 60604",
+Housing Laws,LAF,https://www.lafchicago.org/,(773) 769-1411,"4413 N Sheridan Rd Chicago, IL 60640",
+Housing Laws,Uptown People's Law Center  ,https://www.uplcchicago.org,(773) 769-1410,"4413 N Sheridan Rd Chicago, IL 60640",
+Homeless Laws,Homeless Coalition for the Homeless,,(800) 940-1119,,
+Homeless Laws,ERZA Hotline ,,(800) 248-1818,,
+Homeless Laws,Family Rescue,,(773) 375-8400,,
+Homeless Laws,Homeless Coalition for the Homeless,,(800) 940-1119,,
+Homeless Laws,ERZA Hotline ,,(800) 248-1818,,
+Homeless Laws,Family Rescue,,(773) 375-8400,,
+Homeless Laws,Legal Assistance Foundation of Metropolitan Chicago,,(312) 341-1070,,
+Food Pantries,Greater Food Depository,https://www.chicagosfoodbank.org,(773) 247-3663,,
 Food Pantries,Wells Temple of Deliverance Community Development Center,,(773) 533-6807,"2739 W Madison St, Chicago, IL  60612",
 Food Pantries,TSA: Midwest Corps Pantry,,(312) 733-4801,"20 S Campbell Ave, Chicago, IL  60612",
 Food Pantries,Onward House,,(312) 666-6726,"2805 N Linder Ave, Chicago, IL  60641",
@@ -94,55 +92,55 @@ Soup/Community Kitchens ,Cornerstone Community Outreach,,(773) 271-8163 ,"4626 N
 Soup/Community Kitchens ,Preston Bradley Center,,(773) 784-6633,"941 W Lawrence Ave 2nd Fl, Chicago, IL  60640",
 Soup/Community Kitchens ,St. Thomas of Canterbury,,(773) 878-5507,"4827 N Kenmore Ave, Chicago, IL  60640",
 Soup/Community Kitchens ,FCHN Soup Kitchen,,(773) 436-8277,"1234 W 59th St, Chicago, IL  60636",
-Free Medical Centers,Community Health Clinic - West Town,https://www.communityhealth.org,773.395.9900,2611 W Chicago Ave,
-Free Medical Centers,Community Health Clinic - Englewood,https://www.communityhealth.org,773.994.1515,641 W 63rd St,
-Free Medical Centers,Washington Park Children's Free Health Clinic,,773-924-0220,5350 S Prairie Avenue,
-Free Medical Centers,New Life Volunteering Society Free Health Clinic,,773-275-8630,2645 W. Peterson Ave,
-Free Medical Centers,Pacific Garden Mission Medical Clinic,,312-492-9410,1458 S. Canal Street,
-Low Income Community Medical Clinics,Erie Family Health Center ,, (312) 666-3494 ,4747 N. Kedzie,
-Low Income Community Medical Clinics,Warren Family Health Center ,,773-733-4475,2409 W. Warren Blvd,
-Low Income Community Medical Clinics,Wells Family Health Center,,773-536-1000,3747 S. Cottage Grove Ave,
-Low Income Community Medical Clinics,Access at Anixter Center,,773-404-5277,2020 N. Clybourn Ave.,
-Low Income Community Medical Clinics,ACCESS at Jackson Park,,773-947-7310,7501 S. Stony Island Avenue,
-Low Income Community Medical Clinics,Alivio Medical Center,,773-254-1400,2355 S Western Ave,
-Low Income Community Medical Clinics,Community  Family Health Center ,,773-772-4319,2957 W. Armitage Ave,
-Low Income Community Medical Clinics,Community  Family Health Center ,,773-434-9216,5050 S. State St. 2nd floor,
-Low Income Community Medical Clinics,Community  Family Health Center ,,773-561-1396,4753 N Broadway 700,
-Low Income Community Medical Clinics,Community  Family Health Center ,,773-761-0300,2424 W. Peterson Ave.,
-Low Income Community Medical Clinics,Austin Family Health Center,,773-745-1200 ,5835 W. North Ave,
-Low Income Community Medical Clinics,Beethoven Health Center,,773-536-4879,25 W.47th. St,
-Low Income Community Medical Clinics,Beloved Community Family Center,,773-651-3629,326 W. 64th Street 205,
-Low Income Community Medical Clinics,Humboldt Park Family Health Center,,773-278-1880,3202 W North Ave,
-Low Income Community Medical Clinics,Interfaith House,,773-533-6013,3456 W. Franklin Blvd,
-Low Income Community Medical Clinics,Friend Family Health Center,,773-434-8600,5843 S. Western Ave.,
-Low Income Community Medical Clinics,Heartland Alliance For Human Needs & Human Rights,,312-660-1300,208 South LaSalle Street Suite 1818,
-Low Income Community Medical Clinics,Howard Brown Health Center,,773-388-1600,4025 N. Sheridan Ave,
-Low Income Community Medical Clinics,Kedzie Family Health Center,,773-254-6044,3213 W. 47th Pl. 21,
-Low Income Community Medical Clinics,Lawndale Christian Health Center,,773-843-3001,3860 W Ogden Ave,
-Low Income Community Medical Clinics,Little Village Family Health Center,,773-277-3413,3113 W Cermak Rd,
-Low Income Community Medical Clinics,Logan Square Family Health Center,,773-276-2229 ,3924 W. Fullerton Ave,
-Low Income Community Medical Clinics,Lower Westside Neighborhood Health Center,,312-746-5157,1713 S. Ashland Ave,
-Low Income Community Medical Clinics,Madison Family Health Center,,312-826-6600,3800 W. Madison St,
-Low Income Community Medical Clinics,Near West Family Center,,312-413-7425,2310 W. Roosevelt,
-Low Income Community Medical Clinics,Rogers Park Family Health Center,,773-761-9625,1400 W Greenleaf,
-Low Income Community Medical Clinics,Salud Family Health Center,,773-836-2785,5359 W. Fullerton Ave,
-Low Income Community Medical Clinics,Cicero Family Health Center,,708-656-6430,5341 W. Cermak Rd.,
-Free / Low income Dental Services,1st Family Dental,,(855)251-0766,2511 N Milwaukee,
-Free / Low income Dental Services,Community Health Clinic - West Town,https://www.communityhealth.org,773.395.9900,2611 W Chicago Ave,
-Free / Low income Dental Services,Community Health Clinic - Englewood,https://www.communityhealth.org,773.994.1515,641 W 63rd St,
+Free Medical Centers,Community Health Clinic - West Town,https://www.communityhealth.org,(773) 395-9900,"2611 W Chicago Ave Chicago, IL 60622",
+Free Medical Centers,Community Health Clinic - Englewood,https://www.communityhealth.org,(773) 994-1515,"641 W 63rd St Chicago, IL 60652",
+Free Medical Centers,Washington Park Children's Free Health Clinic,,(773) 924-0220,"5350 S Prairie Ave Chicago, IL 60615",
+Free Medical Centers,New Life Volunteering Society Free Health Clinic,,(773) 275-8630,"2645 W Peterson Ave Chicago, IL 60659",
+Free Medical Centers,Pacific Garden Mission Medical Clinic,,(312) 492-9410,"1458 S Canal St Chicago, IL 60607",
+Low Income Community Medical Clinics,Erie Family Health Center ,, (312) 666-3494,"4747 N Kedzie Ave Chicago, IL 60625",
+Low Income Community Medical Clinics,Warren Family Health Center ,,(773) 733-4475,"2409 W Warren Blvd Chicago, IL 60612",
+Low Income Community Medical Clinics,Wells Family Health Center,,(773) 536-1000,"3747 S Cottage Grove Ave Chicago, IL 60653",
+Low Income Community Medical Clinics,Access at Anixter Center,,(773) 404-5277,"2020 N Clybourn Ave Chicago, IL 60614",
+Low Income Community Medical Clinics,ACCESS at Jackson Park,,(773) 947-7310,"7501 S Stony Island Ave Chicago, IL 60649",
+Low Income Community Medical Clinics,Alivio Medical Center,,(773) 254-1400,"2355 S Western Ave Chicago, IL 60608",
+Low Income Community Medical Clinics,Community  Family Health Center ,,(773) 772-4319,"2957 W Armitage Ave Chicago, IL 60647",
+Low Income Community Medical Clinics,Community  Family Health Center ,,(773) 434-9216,"5050 S State St Chicago, IL 60609",
+Low Income Community Medical Clinics,Community  Family Health Center ,,(773) 561-1396,"4753 N Broadway #700 Chicago, IL 60640",
+Low Income Community Medical Clinics,Community  Family Health Center ,,(773) 761-0300,"2424 W Peterson Ave Chicago, IL 60659",
+Low Income Community Medical Clinics,Austin Family Health Center,,(773) 745-1200,"5835 W North Ave Chicago, IL 60639",
+Low Income Community Medical Clinics,Beethoven Health Center,,(773) 536-4879,"25 W 47th St Chicago, IL 60609",
+Low Income Community Medical Clinics,Beloved Community Family Center,,(773) 651-3629,"326 W 64th St Chicago, IL 60621",
+Low Income Community Medical Clinics,Humboldt Park Family Health Center,,(773) 278-1880,"3202 W North Ave Chicago, IL 60647",
+Low Income Community Medical Clinics,Interfaith House,,(773) 533-6013,"3456 W Franklin Blvd Chicago, IL 60624",
+Low Income Community Medical Clinics,Friend Family Health Center,,(773) 434-8600,"5843 S Western Ave Chicago, IL 60636",
+Low Income Community Medical Clinics,Heartland Alliance For Human Needs & Human Rights,,(312) 660-1300,"208 S Lasalle St #1818 Chicago, IL 60604",
+Low Income Community Medical Clinics,Howard Brown Health Center,,(773) 388-1600,"4025 N Sheridan Rd Chicago, IL 60613",
+Low Income Community Medical Clinics,Kedzie Family Health Center,,(773) 254-6044,"3213 W 47th Pl Chicago, IL 60632",
+Low Income Community Medical Clinics,Lawndale Christian Health Center,,(773) 843-3001,"3860 W Ogden Ave Chicago, IL 60623",
+Low Income Community Medical Clinics,Little Village Family Health Center,,(773) 277-3413,"3113 W Cermak Rd Chicago, IL 60623",
+Low Income Community Medical Clinics,Logan Square Family Health Center,,(773) 276-2229,"3924 W Fullerton Ave Chicago, IL 60647",
+Low Income Community Medical Clinics,Lower Westside Neighborhood Health Center,,(312) 746-5157,"1713 S Ashland Ave Chicago, IL 60608",
+Low Income Community Medical Clinics,Madison Family Health Center,,(312) 826-6600,"3800 W Madison St Chicago, IL 60624",
+Low Income Community Medical Clinics,Near West Family Center,,(312) 413-7425,"2310 W Roosevelt Rd Chicago, IL 60608",
+Low Income Community Medical Clinics,Rogers Park Family Health Center,,(773) 761-9625,"1400 W Greenleaf Ave Chicago, IL 60626",
+Low Income Community Medical Clinics,Salud Family Health Center,,(773) 836-2785,"5359 W Fullerton Ave Chicago, IL 60639",
+Low Income Community Medical Clinics,Cicero Family Health Center,,(708) 656-6430,"5341 W Cermak Rd Cicero, IL 60804",
+Free / Low income Dental Services,1st Family Dental,,(855) 251-0766,"2511 N Milwaukee Ave Chicago, IL 60647",
+Free / Low income Dental Services,Community Health Clinic - West Town,https://www.communityhealth.org,(773) 395-9900,"2611 W Chicago Ave Chicago, IL 60622",
+Free / Low income Dental Services,Community Health Clinic - Englewood,https://www.communityhealth.org,(773) 994-1515,"641 W 63rd St Chicago, IL 60652",
 Free / Low income Dental Services,University of Illlinois Dental Clinic,http://hospital.uillinois.edu/Patient_Care_Services/Dentistry.html,(312) 996-7558,"801 S Paulina St, Chicago, IL 60612",
-Free / Low income Dental Services,Free People's Dental Clinic,,773.436.4758,,
-Free / Low income Dental Services,Asian Human Services Family Health Center ,,(773)761-0300,,
-Free / Low income Dental Services,"Aunt Martha's Youth Service Center, Inc., and Healthcare Network ",,(877)692-8686,,
-Free / Low income Dental Services,"Heartland Health Outreach, Inc",,(773) 338-4015,3436 W Wilson Ave,
+Free / Low income Dental Services,Free People's Dental Clinic,,(773) 436-4758,,
+Free / Low income Dental Services,Asian Human Services Family Health Center ,,(773) 761-0300,,
+Free / Low income Dental Services,"Aunt Martha's Youth Service Center, Inc., and Healthcare Network ",,(877) 692-8686,,
+Free / Low income Dental Services,"Heartland Health Outreach, Inc",,(773) 338-4015,"3436 W Wilson Ave Chicago, IL 60625",
 Free / Low income Dental Services,"Erie Family Dental Clinic, Inc",,312) 666-3494,,
-Free / Low income Dental Services,West Town Clinic ,,312.744.5493,,
+Free / Low income Dental Services,West Town Clinic ,,(312) 744-5493,,
 Mental Health and Addiction Services,Englewood MHC,http://https://www.cityofchicago.org/city/en/depts/cdph/provdrs/clinic/svcs/find_counseling_therapy.html,,,
-Mental Health and Addiction Services,Greater Grand/MID-South MHC ,http://https://www.cityofchicago.org/city/en/depts/cdph/provdrs/clinic/svcs/find_counseling_therapy.html,312.747.7496,641 W. 63rd Street,
-Mental Health and Addiction Services,Greater Lawn MHC,https://www.cityofchicago.org,312.747.0036,4314 S Cottage Grove,
-Mental Health and Addiction Services,North River MHC ,http://https://www.cityofchicago.org/city/en/depts/cdph/provdrs/clinic/svcs/find_counseling_therapy.html,312.747.1020,4150 West 55th Street,
-Mental Health and Addiction Services,Roseland MHC,http://https://www.cityofchicago.org/city/en/depts/cdph/provdrs/clinic/svcs/find_counseling_therapy.html,312.744.1906,5801 North Pulaski Road,
-Mental Health and Addiction Services,Behavioral Health Centers of America,,312.747.7320,200 East 115th Street,
+Mental Health and Addiction Services,Greater Grand/MID-South MHC ,http://https://www.cityofchicago.org/city/en/depts/cdph/provdrs/clinic/svcs/find_counseling_therapy.html,(312) 747-7496,"641 W 63rd St Chicago, IL 60652",
+Mental Health and Addiction Services,Greater Lawn MHC,https://www.cityofchicago.org,(312) 747-0036,"4314 S Cottage Grove Ave Chicago, IL 60653",
+Mental Health and Addiction Services,North River MHC ,http://https://www.cityofchicago.org/city/en/depts/cdph/provdrs/clinic/svcs/find_counseling_therapy.html,(312) 747-1020,"4150 W 55th St Chicago, IL 60632",
+Mental Health and Addiction Services,Roseland MHC,http://https://www.cityofchicago.org/city/en/depts/cdph/provdrs/clinic/svcs/find_counseling_therapy.html,(312) 744-1906,"5801 N Pulaski Rd Chicago, IL 60646",
+Mental Health and Addiction Services,Behavioral Health Centers of America,,(312) 747-7320,"200 E 115th St Chicago, IL 60628",
 Mental Health and Addiction Services,Community Counseling Centers of Chicago,https://www.c4chicago.org,(773) 769-0205,"4740 N Clark St, Chicago, IL 60640",
 Mental Health and Addiction Services,Pilsen Wellness Center,https://www.pilsenwellnesscenter.org,(773) 579-0832,"2319 S Damen Ave, Chicago, IL 60608",
-Mental Health and Addiction Services,Chicago Children Behavior Center,http://https://www.chicagochildrenscenter.com/,(312)491-5000,"1431 North Claremont, Chicago, IL. 60622",
+Mental Health and Addiction Services,Chicago Children Behavior Center,http://https://www.chicagochildrenscenter.com/,(312) 491-5000,"1431 North Claremont, Chicago, IL 60622",
