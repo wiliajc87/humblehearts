@@ -17,8 +17,12 @@
               <li><h3><%= link_to val.name, "http://#{val.url.to_s.gsub('https://', '')}", target: "_blank" %></h3></li>
               <ul>
                 <li>Phone: <%=val.phone%></li>
-                <li>Address: <%= val.address.blank? ? " " : (link_to val.address, "http://maps.google.com/?q=#{val.address}", target: "_blank") %></li>
+                <% if val.address %>
+                <li>Address: <%= link_to val.address, "http://maps.google.com/?q=#{val.address}", target: "_blank" %></li>
+                <% end %>
+                <% if val.description %>
                 <li>Description: <%=val.description%></li>
+                <% end %>
               </ul>
             <% end %>
           </ul>

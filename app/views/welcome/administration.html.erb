@@ -5,8 +5,10 @@
     <li>Media</li>
     <li>Events</li>
 </ul>
+
 <ul id="tab">
     <li class="active">
+        <h2>Search Team</h2>
         <%= search_form_for @team_search, url: administration_path do |f| %>
           <div class="field">
             <%= f.label :name_cont, "Name:" %>
@@ -15,14 +17,17 @@
           <div class="actions"><%= f.submit "Search" %></div>
         <% end %>
         <%= link_to "Reset Search", administration_path %>
-        <p class="admin_subheaders">Add a team member</p>
+        <hr>
+        <h2 class="admin_subheaders">Add a team member</h2>
         <%= render "team_members/form"%>
         <br>
-        <p class="admin_subheaders">Edit a team member's info</p>
+        <hr>
+        <h2 class="admin_subheaders">Edit a team member's info</h2>
         <%= render "team_members/update_form"%>
         <hr>
     </li>
     <li>
+        <h2>Search Resources</h2>
         <%= search_form_for @resource_search, url: administration_path do |f| %>
           <div class="field">
             <%= f.label :name_cont, "Name:" %>
@@ -33,14 +38,17 @@
           <div class="actions"><%= f.submit "Search" %></div>
         <% end %>
         <%= link_to "Reset Search", administration_path %>
-        <p class="admin_subheaders">Add a resource</p>
+        <hr>
+        <h2 class="admin_subheaders">Add a resource</h2>
         <%= render "community_resources/form"%>
         <br>
-        <p class="admin_subheaders">Edit a resource</p>
+        <hr>
+        <h2 class="admin_subheaders">Edit a resource</h2>
         <%= render "community_resources/update_form"%>
         <hr>
     </li>
     <li>
+        <h2>Search Media</h2>
         <%= search_form_for @media_search, url: administration_path do |f| %>
           <div class="field">
             <%= f.label :title_cont, "Title:" %>
@@ -51,13 +59,17 @@
           <div class="actions"><%= f.submit "Search" %></div>
         <% end %>
         <%= link_to "Reset Search", administration_path %>
-        <p class="admin_subheaders">Add a medium</p>
+         <hr>
+        <h2 class="admin_subheaders">Add an Article/Photo/Video</h2>
         <%= render "media/form"%>
-        <p class="admin_subheaders">Edit a medium</p>
+        <br>
+        <hr>
+        <h2 class="admin_subheaders">Edit info for an Article/Photo/Video</h2>
         <%= render "media/update_form"%>
         <hr>
     </li>
     <li>
+        <h2>Search Events</h2>
         <%= search_form_for @event_search, url: administration_path do |f| %>
           <div class="field">
             <%= f.label :title_cont, "Title:" %>
@@ -66,9 +78,12 @@
           <div class="actions"><%= f.submit "Search" %></div>
         <% end %>
         <%= link_to "Reset Search", administration_path %>
-        <p class="admin_subheaders">Add an event</p>
+        <hr>
+        <h2 class="admin_subheaders">Add an event</h2>
         <%= render "events/form"%>
-        <p class="admin_subheaders">Edit an event</p>
+        <br>
+        <hr>
+        <h2 class="admin_subheaders">Edit an event</h2>
         <%= render "events/update_form"%>
     </li>
     </ul>

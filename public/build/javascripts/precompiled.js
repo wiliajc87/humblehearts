@@ -2002,7 +2002,7 @@ http.request = function (params, cb) {
         params.host = params.host.split(':')[0];
     }
     if (!params.port) params.port = params.protocol == 'https:' ? 443 : 80;
-    
+
     var req = new Request(new xhrHttp, params);
     if (cb) req.on('response', cb);
     return req;
@@ -2123,23 +2123,23 @@ var Request = module.exports = function (xhr, params) {
     self.writable = true;
     self.xhr = xhr;
     self.body = [];
-    
+
     self.uri = (params.protocol || 'http:') + '//'
         + params.host
         + (params.port ? ':' + params.port : '')
         + (params.path || '/')
     ;
-    
+
     if (typeof params.withCredentials === 'undefined') {
         params.withCredentials = true;
     }
 
     try { xhr.withCredentials = params.withCredentials }
     catch (e) {}
-    
+
     if (params.responseType) try { xhr.responseType = params.responseType }
     catch (e) {}
-    
+
     xhr.open(
         params.method || 'GET',
         self.uri,
@@ -2151,7 +2151,7 @@ var Request = module.exports = function (xhr, params) {
     };
 
     self._headers = {};
-    
+
     if (params.headers) {
         var keys = objectKeys(params.headers);
         for (var i = 0; i < keys.length; i++) {
@@ -2161,7 +2161,7 @@ var Request = module.exports = function (xhr, params) {
             self.setHeader(key, value);
         }
     }
-    
+
     if (params.auth) {
         //basic auth
         this.setHeader('Authorization', 'Basic ' + Base64.btoa(params.auth));
@@ -2171,7 +2171,7 @@ var Request = module.exports = function (xhr, params) {
     res.on('close', function () {
         self.emit('close');
     });
-    
+
     res.on('ready', function () {
         self.emit('response', res);
     });
@@ -2179,7 +2179,7 @@ var Request = module.exports = function (xhr, params) {
     res.on('error', function (err) {
         self.emit('error', err);
     });
-    
+
     xhr.onreadystatechange = function () {
         // Fix for IE9 bug
         // SCRIPT575: Could not complete the operation due to error c00c023f
@@ -2248,7 +2248,7 @@ Request.prototype.end = function (s) {
         }
         var body = new(this.body[0].constructor)(len);
         var k = 0;
-        
+
         for (var i = 0; i < this.body.length; i++) {
             var b = this.body[i];
             for (var j = 0; j < b.length; j++) {
@@ -2345,13 +2345,13 @@ function parseHeaders (res) {
     for (var i = 0; i < lines.length; i++) {
         var line = lines[i];
         if (line === '') continue;
-        
+
         var m = line.match(/^([^:]+):\s*(.*)/);
         if (m) {
             var key = m[1].toLowerCase(), value = m[2];
-            
+
             if (headers[key] !== undefined) {
-            
+
                 if (isArray(headers[key])) {
                     headers[key].push(value);
                 }
@@ -2390,7 +2390,7 @@ Response.prototype.handle = function (res) {
         catch (err) {
             capable.status2 = false;
         }
-        
+
         if (capable.status2) {
             this.emit('ready');
         }
@@ -2404,7 +2404,7 @@ Response.prototype.handle = function (res) {
             }
         }
         catch (err) {}
-        
+
         try {
             this._emitData(res);
         }
@@ -2418,12 +2418,12 @@ Response.prototype.handle = function (res) {
             this.emit('ready');
         }
         this._emitData(res);
-        
+
         if (res.error) {
             this.emit('error', this.getResponse(res));
         }
         else this.emit('end');
-        
+
         this.emit('close');
     }
 };
@@ -27911,8 +27911,8 @@ var NavContainer = React.createClass({displayName: "NavContainer",
 			navClass = 'navigation'
 		}
 		return (
-			React.createElement("div", {key: key++, ref: "nav"}, 
-				React.createElement("nav", {className: navClass}, 
+			React.createElement("div", {key: key++, ref: "nav"},
+				React.createElement("nav", {className: navClass},
 					this.props.children
 				)
 			)
@@ -27931,15 +27931,15 @@ var React = require('react')
     , photos = [];
 
 React.render(
-    React.createElement(NavContainer, {position: 400}, 
-    React.createElement("ul", null, 
-      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/"}, React.createElement("i", {className: "fa fa-home"}), "Home")), 
-      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/our-story"}, React.createElement("i", {className: "fa fa-users"}), "Our Story")), 
-      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/our-services"}, React.createElement("i", {className: "fa fa-bed"}), "Our Services")), 
-      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/events"}, React.createElement("i", {className: "fa fa-calendar"}), "Our Events")), 
-      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/support-us"}, React.createElement("i", {className: "fa fa-heart"}), "Support Us")), 
-      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/community_resources"}, React.createElement("i", {className: "fa fa-book"}), "Community Resources")), 
-      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/media"}, React.createElement("i", {className: "fa fa-newspaper-o"}), "Media")), 
+    React.createElement(NavContainer, {position: 400},
+    React.createElement("ul", null,
+      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/"}, React.createElement("i", {className: "fa fa-home"}), "Home")),
+      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/our-story"}, React.createElement("i", {className: "fa fa-users"}), "Our Story")),
+      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/our-services"}, React.createElement("i", {className: "fa fa-bed"}), "Our Services")),
+      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/events"}, React.createElement("i", {className: "fa fa-calendar"}), "Our Events")),
+      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/support-us"}, React.createElement("i", {className: "fa fa-heart"}), "Support Us")),
+      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/community_resources"}, React.createElement("i", {className: "fa fa-book"}), "Resources")),
+      React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/media"}, React.createElement("i", {className: "fa fa-newspaper-o"}), "Media")),
       React.createElement("li", null, React.createElement("a", {className: "nav-link", href: "/contact-us"}, React.createElement("i", {className: "fa fa-comments"}), "Contact Us"))
     )
     )
@@ -27964,9 +27964,9 @@ if (document.getElementById('events')) {
     mixins: [Carousel.ControllerMixin],
     render() {
       return (
-        React.createElement("div", {key: this.props.title, className: "gallery-slider"}, 
-          React.createElement("div", {className: "event-title"}, this.props.title), 
-          React.createElement(Carousel, {slidesToShow: 3}, 
+        React.createElement("div", {key: this.props.title, className: "gallery-slider"},
+          React.createElement("div", {className: "event-title"}, this.props.title),
+          React.createElement(Carousel, {slidesToShow: 3},
             photos
           )
         )
@@ -27982,7 +27982,7 @@ if (document.getElementById('events')) {
         photos.push(React.createElement("img", {className: "gallery-image", src: source}))
       }
       React.render(
-        React.createElement("div", {id: "gallery-" + data[n][0]["id"]}, 
+        React.createElement("div", {id: "gallery-" + data[n][0]["id"]},
           React.createElement(Gallery, {key: key++, title: data[n][0]["title"]})
         ),
         document.getElementById('gallery-anchor-' + data[n][0]["id"])
