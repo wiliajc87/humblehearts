@@ -25,6 +25,7 @@ module Categories
       "Other" => @other
     }
   end
+
   def media_categorify
     @videos = Medium.where(:category => "video")
     @articles  = Medium.where(:category => "article")

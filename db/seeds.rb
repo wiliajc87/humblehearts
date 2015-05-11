@@ -1,5 +1,6 @@
 require 'csv'
 
+
 #event seeds
 
 Event.create(title: "Annual Holiday Christmas Party", frequency: "Annually", description: "Wrapping gifts and showing love to the homeless by filling shoe boxes with all kinds of treats such as socks, hygiene products, snacks, gloves, scarves and other miscellaneous items to pass out during the holiday" , album_link: "https://www.flickr.com/photos/132225561@N08/sets/72157650005328363", date_of_event: "November 1, 2015".to_date)
