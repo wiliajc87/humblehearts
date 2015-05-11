@@ -77,23 +77,25 @@ header {
 		width: 100%;
 		text-align: center;
 		list-style-type: none;
-		background-color: rgba(255, 0, 0, 0.5);
+		background-color: rgba(255, 0, 0, 0.65);
 		transition: all .5s;
-		padding: 1em;
+		padding: 5px;
 
 	  ul {
+
 	  	margin: 0;
         padding: 0;
 
 	    li {
 	    	display: inline;
-	    	line-height: 1em;
+	    	font-size: 1.1em;
+	    	width: calc(100% / 8);
 	    }
 	  }
 
 	  a {
 	  	display: inline-block;
-			width: 12%;
+		width: calc(100% / 8);
 			color: $white;
 			text-decoration: none;
 		  transition: all .25s;
