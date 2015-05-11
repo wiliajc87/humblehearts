@@ -56,7 +56,7 @@ header {
 		font-size: 2em;
 
 		border: 0;
-		box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 1px;
+		box-shadow: rgba(0, 0, 0, 0.5) 2px 2px .1px;
 		outline: none;
 		text-transform: uppercase;
 
@@ -79,6 +79,17 @@ header {
 		list-style-type: none;
 		background-color: rgba(255, 0, 0, 0.5);
 		transition: all .5s;
+		padding: 1em;
+
+	  ul {
+	  	margin: 0;
+        padding: 0;
+
+	    li {
+	    	display: inline;
+	    	line-height: 1em;
+	    }
+	  }
 
 	  a {
 	  	display: inline-block;
@@ -102,8 +113,7 @@ header {
 
 	.navigation {
 		position: absolute;
-		top: 420px;
-		padding: 20px;
+		top: 416px;
 		transition: all .5s;
 	}
 
