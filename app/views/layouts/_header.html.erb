@@ -7,7 +7,7 @@
 		</div>
 	<% else %>
 		<div class="top-left">
-			<%= image_tag("minimalLogo.png") %>
+			<%= link_to image_tag("minimalLogo.png"), root_path%>
 		</div>
 		<div class="title-text">
 			<% if request.env['PATH_INFO'] == '/our-story' %>
