@@ -18,7 +18,9 @@
               <ul>
                 <li>Phone: <%=val.phone%></li>
                 <li>Address: <%=val.address%></li>
+                <% if val.description %>
                 <li>Description: <%=val.description%></li>
+                <% end %>
               </ul>
             <% end %>
           </ul>

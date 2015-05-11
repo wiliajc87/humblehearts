@@ -4,7 +4,7 @@
     <h2><%= key %></h2>
       <% value.each do |val| %>
         <%if val.category == "video" %>
-          <iframe width="100%" height="auto" src='<%= val.link%>' frameborder="0" allowfullscreen></iframe>
+          <iframe width="100%" height="500px" src='<%= val.link%>' frameborder="0" allowfullscreen></iframe>
         <%else%>
           <h3><%= link_to val.title, url_for(val.link)%></h3>
         <%end%>
