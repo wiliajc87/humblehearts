@@ -1,0 +1,47 @@
+.index {
+	text-align: center;
+
+	.heart-box {
+		background-image:url("heartpattern.png");
+
+		h2 {
+			font-size: 5em !important;
+			margin-top: 0;
+		}
+
+		p {
+			font-size: 1.5em !important;
+			text-align: justify;
+
+		}
+
+	}
+
+	.accept-box {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+
+		h2 {
+			font-size: 1.5em !important;
+			padding-bottom: 1em;
+			padding-top: 1em;
+		}
+
+		img {
+			height: 3em;
+		}
+
+		li{
+			font-size: 2em;
+			font-family: $title-text;
+		}
+
+		p{
+			padding-top: 1em;
+			font-size: 1.5em;
+			text-align: justify;
+		}
+	}
+
+}
