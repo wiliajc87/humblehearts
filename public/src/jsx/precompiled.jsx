@@ -7,14 +7,16 @@ var React = require('react')
 
 React.render(
     <NavContainer position={400}>
-      <a className="nav-link" href="/"><i className="fa fa-home"></i>Home</a>
-      <a className="nav-link" href="/our-story"><i className="fa fa-users"></i>Our Story</a>
-      <a className="nav-link" href="/our-services"><i className="fa fa-bed"></i>Services</a>
-      <a className="nav-link" href="/events"><i className="fa fa-calendar"></i>Events</a>
-      <a className="nav-link" href="/support-us"><i className="fa fa-heart"></i>Support Us</a>
-      <a className="nav-link" href="/community_resources"><i className="fa fa-book"></i>Get Help</a>
-      <a className="nav-link" href="/media"><i className="fa fa-newspaper-o"></i>Media</a>
-      <a className="nav-link" href="/contact-us"><i className="fa fa-comments"></i>Contact Us</a>
+    <ul>
+      <li><a className="nav-link" href="/"><i className="fa fa-home"></i>Home</a></li>
+      <li><a className="nav-link" href="/our-story"><i className="fa fa-users"></i>Our Story</a></li>
+      <li><a className="nav-link" href="/our-services"><i className="fa fa-bed"></i>Our Services</a></li>
+      <li><a className="nav-link" href="/events"><i className="fa fa-calendar"></i>Our Events</a></li>
+      <li><a className="nav-link" href="/support-us"><i className="fa fa-heart"></i>Support Us</a></li>
+      <li><a className="nav-link" href="/community_resources"><i className="fa fa-book"></i>Community Resources</a></li>
+      <li><a className="nav-link" href="/media"><i className="fa fa-newspaper-o"></i>Media</a></li>
+      <li><a className="nav-link" href="/contact-us"><i className="fa fa-comments"></i>Contact Us</a></li>
+    </ul>
     </NavContainer>
     , document.getElementById('navigation-anchor')
 );
