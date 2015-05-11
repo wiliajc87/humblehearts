@@ -1,3 +1,4 @@
+
 ul#tabs {
     list-style-type: none;
     padding: 0;
@@ -21,7 +22,8 @@ ul#tabs li.active {
 ul#tab {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 5em;
+    padding-right: 5em;
 }
 ul#tab li {
     display: none;
