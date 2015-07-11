@@ -1,3 +1,24 @@
+.mobile-header {
+	background-color: $dark-grey;
+
+	ul.right {
+		background-color: $dark-red;
+
+		form {
+			background-color: $dark-red;
+			.button {
+				background-color: $dark-red;
+			}
+		}
+
+		.has-dropdown a {
+			background-color: $dark-grey;
+		}
+	}
+}
+
+
+
 header {
 	box-sizing: border-box;
 	top: 0;
