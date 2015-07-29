@@ -28,7 +28,7 @@
     </li>
     <li>
         <h2>Search Resources</h2>
-        <%= search_form_for @resource_search, url: administration_path do |f| %>
+        <%= search_form_for @resource_search, remote: true, url: administration_path do |f| %>
           <div class="field">
             <%= f.label :name_cont, "Name:" %>
             <%= f.text_field :name_cont %>

@@ -10,4 +10,10 @@ $(document).ready(function(){
             $("#tab li:nth-child("+nthChild+")").addClass("active");
         }
     });
+    // $('.community_resource_search').on('submit',function(e){
+    //     e.preventDefault();
+    //     console.log("search initiated");
+    //     $.ajax()
+    // });
+
 });
