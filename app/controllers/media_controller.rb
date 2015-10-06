@@ -25,14 +25,14 @@ class MediaController < ApplicationController
   end
 
   def update
-    @medium = Medium.find(params:[:id])
+    @medium = Medium.find(params[:id])
     if @medium.update(medium_params)
       redirect_to administration_path
     end
   end
 
   def delete
-    @medium = Medium.find(params:[:id])
+    @medium = Medium.find(params[:id])
     if @medium.destroy
       redirect_to administration_path
     else
