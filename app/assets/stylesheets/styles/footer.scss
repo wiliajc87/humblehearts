@@ -1,0 +1,42 @@
+footer {
+	font-family: $body-font;
+	background-color: $light-grey;
+	color: $dark-grey;
+
+	position: relative;
+	margin-top: -9em;
+	height: 9em;
+	clear: both;
+
+	text-align: left;
+
+	.phone-size-info {
+		p {
+			text-align: center;
+		}
+	}
+
+	.spacer {
+		height: 1em;
+	}
+
+	ul {
+		list-style-type: none;
+	}
+
+
+	a {
+		color: $dark-grey;
+		text-decoration: none;
+
+		&:hover {
+			color: $black;
+		}
+	}
+
+
+	p {
+		text-align: right;
+	}
+
+}

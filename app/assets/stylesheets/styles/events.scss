@@ -1,0 +1,89 @@
+#events {
+	ul {
+		list-style-type: none;
+	}
+
+	.event-list {
+		padding-left: 1em;
+		padding-right: 1em;
+		padding-top: 1em;
+	}
+
+	.past-events {
+		text-align: center;
+		font-size: 2em;
+		a {
+			color: $black;
+		}
+
+		a:hover {
+			color: $dark-red;
+		}
+	}
+}
+
+.slider {
+	div {
+		ul {
+			// dots for each slide
+			// hide because they're ugly
+			display: none;
+		}
+		button {
+			position: relative;
+			height: 34px;
+			bottom: 60px;
+			font-family: $title-text;
+		}
+	}
+}
+
+.event-title {
+	margin: 4px;
+  color: $black;
+  }
+
+.gallery-slider {
+	margin: 10px auto auto;
+	padding:  10px;
+	height: 280px;
+	width: 800px;
+	font-family: $body-font;
+	background: $light-grey;
+	text-align: center;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+	img.gallery-image {
+		max-height: 240px;
+		max-width: 240px;
+		height: auto;
+		width: auto;
+		border: 2px solid $light-grey;
+	}
+
+	div {
+		text-align: center;
+
+		div.photos-carousel {
+
+			.previous-slide, .next-slide {
+				font-size: 44px;
+				text-decoration: none;
+				pointer-events: all;
+			}
+
+			.previous-slide {
+
+			}
+
+			.next-slide {
+
+			}
+		}
+	}
+}

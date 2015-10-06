@@ -1,0 +1,28 @@
+.media {
+	padding-top: 1em;
+	text-align: center;
+
+	h2 {
+		text-align: center;
+	}
+
+	h3 {
+		a {
+			color: $black;
+		}
+
+		a:hover {
+			color: $dark-red;
+		}
+	}
+
+  .media-card {
+    background-color: $light-grey;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+
+}

@@ -1,0 +1,35 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	.wrap-header-body {
+		min-height: 100%;
+	}
+
+
+	#wrapper {
+		overflow: auto;
+		padding-bottom: 9em;
+
+		font-family: $body-font;
+
+		a {
+			color: $dark-red;
+		}
+
+		a:hover {
+			color: $red;
+		}
+
+		h2 {
+			font-family: $title-text;
+			font-size: 1.5em;
+		}
+
+		p {
+			font-family: $body-font;
+			padding-bottom: 0.5em;
+		}
+	}
+}

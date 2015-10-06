@@ -1,0 +1,70 @@
+.index {
+	text-align: center;
+
+	.heart-box {
+		background-image:url("heartpattern.png");
+
+		h2 {
+			font-size: 5em !important;
+			margin-top: 0;
+		}
+
+		p {
+			font-size: 1.5em !important;
+			text-align: justify;
+
+		}
+
+	}
+
+	.accept-box {
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 50px;
+
+		h2 {
+			font-size: 1.5em !important;
+			padding-bottom: 1em;
+			padding-top: 1em;
+		}
+
+		img {
+			height: 3em;
+		}
+
+		li{
+			font-size: 2em;
+			font-family: $title-text;
+		}
+
+		p{
+			padding-top: 1em;
+			font-size: 1.5em;
+			text-align: justify;
+		}
+	}
+
+	.facebook-box {
+		h2 {
+			font-size: 1.5em !important;
+			padding-bottom: 1em;
+			padding-top: 1em;
+		}
+	}
+
+	.charity-statement-box {
+		background-color: $dark-grey;
+		color: $white;
+		padding: 2em;
+		margin-top: 30px;
+
+		p {
+			letter-spacing: 1.5px;
+			border-bottom: 0px;
+			margin-bottom: 0px;
+		}
+
+	}
+
+}

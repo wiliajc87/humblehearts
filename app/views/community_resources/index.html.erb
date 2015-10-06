@@ -1,0 +1,34 @@
+<div class="resources">
+  <h2 class="hide-for-large-up">Resources</h2>
+  <div class="row">
+    <p>At Humble Hearts, we strive to provide you with anything you could possibly need to help get you back on your feet, even if we ourselves are unable to provide it. We try our best to have all available options for our clients. Please use any and all of these resources that you would like. If you have a suggestion for a new resource please visit our contact us page.</p>
+  </div>
+
+  <div class="row">
+    <ul class="tabs vertical" data-tab>
+      <% @category_hash.keys.each_with_index do |key, index| %>
+        <li class="tab-title active"><a href="#panel<%= index %>"><%= key %></a></li>
+      <% end %>
+    </ul>
+    <div class="tabs-content">
+      <% @category_hash.each_with_index do |(key, value), index| %>
+        <div class="content active" id="panel<%= index %>">
+          <ul>
+            <% value.each do |val| %>
+              <li><h3><%= link_to val.name, "http://#{val.url.to_s.gsub('https://', '')}", target: "_blank" %></h3></li>
+              <ul>
+                <li>Phone: <%=val.phone%></li>
+                <% if val.address %>
+                <li>Address: <%= link_to val.address, "http://maps.google.com/?q=#{val.address}", target: "_blank" %></li>
+                <% end %>
+                <% if val.description %>
+                <li>Description: <%=val.description%></li>
+                <% end %>
+              </ul>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

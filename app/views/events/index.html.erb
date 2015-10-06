@@ -1,0 +1,26 @@
+<div id="events">
+	<h2 class="hide-for-large-up">Our Events</h2>
+	<div class="event-list">
+		<ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+		<% @events.each do |event| %>
+			<li class="single-event">
+				<h2><%= event.title %></h2>
+				<p>
+					<%= event.description %>
+				</p>
+			</li>
+		<% end %>
+		</ul>
+	</div>
+
+	<% albums.each do |album| %>
+		<div id=<%= "gallery-anchor-#{album[0]['id']}" %>></div>
+	<% end %>
+
+	<h2 class="past-events">
+		<a href="https://www.flickr.com/photos/132225561@N08/" target="blank_">
+		View More Event Albums
+		</a>
+	</h2>
+
+</div>

@@ -1,3 +1,4 @@
+/config/initializers/flickr.rb
 *.rbc
 capybara-*.html
 .rspec
@@ -8,6 +9,8 @@ capybara-*.html
 /public/system
 /coverage/
 /spec/tmp
+/config/initializers/facebook_keys.rb
+node_modules/
 **.orig
 rerun.txt
 pickle-email-*.html

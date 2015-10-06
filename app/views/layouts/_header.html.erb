@@ -1,12 +1,83 @@
-<header>
-	<form id="donate-form" target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-		<input type="hidden" name="cmd" value="_s-xclick">
-		<input type="hidden" name="hosted_button_id" value="SRL5T2XTP5H5N">
-		<input id="donate-button" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-		<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-	</form>
-	<h1>Humble Hearts</h1>
-	<nav>
+<nav class="top-bar show-for-small-up hide-for-large-up mobile-header" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="/">Humble Hearts</a></h1>
+    </li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
 
-	</nav>
+  <section class="top-bar-section">
+    <ul class="right">
+      <li>
+      	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick" />
+				<input type="hidden" name="hosted_button_id" value="T3RFM3GSNMMJG" />
+				<input class="button" id="donate" type="submit" border="0" value="Donate" name="donate" alt="PayPal - The safer, easier way to pay online!" />
+			</form>
+      </li>
+      <li class="has-dropdown">
+        <a href="#">Menu</a>
+        <ul class="dropdown">
+        	<li><a href="/">Home</a></li>
+          <li><a href="/our-story">Our Story</a></li>
+          <li><a href="/our-services">Our Services</a></li>
+          <li><a href="/events">Our Events</a></li>
+          <li><a href="/support-us">Support Us</a></li>
+          <li><a href="/community_resources">Resources</a></li>
+          <li><a href="/media">Media</a></li>
+          <li><a href="/contact-us">Contact Us</a></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</nav>
+
+
+<header id="top" class="show-for-large-up">
+	<div id="navigation-anchor"></div>
+
+	<% if request.env['PATH_INFO'] == '/' %>
+		<div class="centered">
+			<%= image_tag("Master Logo.png") %>
+		</div>
+	<% else %>
+		<div class="top-left">
+			<%= link_to image_tag("minimalLogo.png"), root_path%>
+		</div>
+		<div class="title-text">
+			<% if request.env['PATH_INFO'] == '/our-story' %>
+				Our Story
+			<% elsif request.env['PATH_INFO'] == '/our-services' %>
+				Our Services
+			<% elsif request.env['PATH_INFO'] == '/events' %>
+				Our Events
+			<% elsif request.env['PATH_INFO'] == '/support-us' %>
+				Support Us
+			<% elsif request.env['PATH_INFO'] == '/community_resources' %>
+				Community Resources
+			<% elsif request.env['PATH_INFO'] == '/media' %>
+				Media
+			<% elsif request.env['PATH_INFO'] == '/contact-us' %>
+				Contact Us
+			<% else %>
+				Humble Hearts
+			<% end %>
+
+
+
+
+
+
+		</div>
+	<% end %>
+
+	<div class="row">
+		<div class="small-3 small-centered columns">
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+				<input type="hidden" name="cmd" value="_s-xclick" />
+				<input type="hidden" name="hosted_button_id" value="T3RFM3GSNMMJG" />
+				<input id="donate" type="submit" border="0" value="Donate" name="donate" alt="PayPal - The safer, easier way to pay online!" />
+			</form>
+		</div>
+	</div>
 </header>

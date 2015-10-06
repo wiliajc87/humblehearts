@@ -1,0 +1,154 @@
+.mobile-header {
+	background-color: $dark-grey;
+
+	ul.right {
+		background-color: $dark-red;
+
+		form {
+			background-color: $dark-red;
+			.button {
+				background-color: $dark-red;
+			}
+		}
+
+		.has-dropdown a {
+			background-color: $dark-grey;
+		}
+	}
+}
+
+
+
+header {
+	box-sizing: border-box;
+	top: 0;
+  height: 500px;
+  width: 100%;
+
+  background-image: image-url("hungryhomlesssign.png");
+  background-position: bottom;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+	.centered {
+		z-index: 500;
+		width: 300px;
+		margin: 0 auto auto;
+		text-align: center;
+	
+	  img {
+			width: 300px;
+			margin: 30px 0px;
+	  }
+	}
+
+	.top-left {
+		z-index: 500;
+
+		img {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 150px;
+		}
+
+	}
+
+	.title-text {
+		font-size: 6em;
+		font-family: $title-text;
+		color: $white;
+		text-align: center;
+		padding-top: 0.7em;
+		margin-bottom: 1em;
+	}
+
+	input#donate {
+		height: 60px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -2em;
+
+		font-family: $title-text;
+		border-radius: 0.3em;
+		font-size: 2em;
+
+		border: 0;
+		box-shadow: rgba(0, 0, 0, 0.5) 2px 2px .1px;
+		outline: none;
+		text-transform: uppercase;
+
+		&:hover {
+			color: $white;
+			cursor: pointer;
+		}
+
+		&:active {
+			color: $dark-grey;
+		}
+
+	}
+
+	nav {
+		box-sizing: border-box;
+		z-index: 500;
+		width: 100%;
+		text-align: center;
+		list-style-type: none;
+		background-color: rgba(255, 0, 0, 0.65);
+		transition: all .5s;
+		padding: 5px;
+
+	  ul {
+
+	  	margin: 0;
+        padding: 0;
+
+	    li {
+	    	display: inline;
+	    	font-size: 1.1em;
+	    	width: calc(100% / 8);
+	    }
+	  }
+
+	  a {
+	  	display: inline-block;
+		width: calc(100% / 8);
+			color: $white;
+			text-decoration: none;
+		  transition: all .25s;
+
+		  &:hover {
+		  	color: $dark-red;
+		  }
+
+		  &:active {
+				position: relative;
+				top: 1px;
+				left: 1px;
+		  }
+	  }
+
+	}
+
+	.navigation {
+		position: absolute;
+		top: 416px;
+		transition: all .5s;
+	}
+
+	.navigation-fixed {
+		z-index: 500;
+		position: fixed;
+		top: 0;
+		padding: 2px;
+		transition: all .5s;
+	}
+
+	i.fa {
+		display: block;
+	}
+}
